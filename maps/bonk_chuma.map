@@ -5298,7 +5298,7 @@
 ( -128 -1920 -232 ) ( -128 -1920 -256 ) ( -352 -1920 -256 ) wall_blue_c [ -1 0 0 0 ] [ 0 0 -1 24 ] 0 1 1
 ( -128 -2096 192 ) ( -352 -2096 192 ) ( -352 -2208 192 ) o_metal3_28 [ 0 -1.0000000000000002 0 -29 ] [ -1.0000000000000002 0 0 -36 ] 0 1 1
 ( -128 -2096 288 ) ( -352 -2208 288 ) ( -352 -2096 288 ) wall_blue_c [ 1 0 0 0 ] [ 0 -1 0 -32 ] 0 1 1
-( -128 -1904 -232 ) ( -352 -1904 -256 ) ( -128 -1904 -256 ) wall_blue_c [ -1 0 0 0 ] [ 0 0 -1 24 ] 0 1 1
+( -128 -1904 -232 ) ( -352 -1904 -256 ) ( -128 -1904 -256 ) o_metal2_28 [ -1 0 0 0 ] [ 0 0 -1 24 ] 0 1 1
 ( -1520 -2208 -232 ) ( -1520 -2096 -232 ) ( -1520 -2096 -256 ) wall_blue_c [ 0 -1 0 -32 ] [ 0 0 -1 24 ] 0 1 1
 }
 // brush 583
@@ -9695,7 +9695,7 @@
 }
 // brush 1064
 {
-( 3944 -3936 -736 ) ( 3944 -4048 -736 ) ( 3944 -4048 -760 ) newbrick6 [ 0 1 0 16 ] [ 0 0 -1 -32 ] 0 1 1
+( 3944 -3936 -736 ) ( 3944 -4048 -736 ) ( 3944 -4048 -760 ) concrete1 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 ( 3952 -2976 -704 ) ( 3824 -2976 -672 ) ( 3952 -2976 -672 ) bltrim7 [ 1 0 -0 0 ] [ 0 -0 -1 0 ] 0 1 1
 ( 5872 -3936 -768 ) ( 5872 -4048 -768 ) ( 6096 -4048 -768 ) newbrick6 [ 1 0 0 16 ] [ 0 -1 0 -16 ] 180 1 1
 ( 5872 -3936 -624 ) ( 6096 -3936 -624 ) ( 6096 -4048 -624 ) newbrick6 [ -1 0 0 -16 ] [ 0 -1 0 -16 ] 180 1 1
@@ -10026,7 +10026,7 @@
 ( 5704 -3936 -768 ) ( 5704 -4048 -768 ) ( 5928 -4048 -768 ) newbrick6 [ 1 0 0 -8 ] [ 0 -1 0 -16 ] 180 -1 1
 ( 5704 -3936 -628 ) ( 5928 -3936 -628 ) ( 5928 -4048 -628 ) newbrick6 [ -1 0 0 8 ] [ 0 -1 0 -16 ] 180 -1 1
 ( 3784 -2960 -704 ) ( 3784 -2960 -672 ) ( 3656 -2960 -672 ) newbrick6 [ -1 0 0 -24 ] [ 0 0 -1 -32 ] 180 -1 1
-( 3816 -3936 -736 ) ( 3816 -4048 -760 ) ( 3816 -4048 -736 ) newbrick6 [ 0 1 0 16 ] [ 0 0 -1 -32 ] 0 -1 1
+( 3816 -3936 -736 ) ( 3816 -4048 -760 ) ( 3816 -4048 -736 ) concrete1 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 // brush 1101
 {
@@ -10041,7 +10041,7 @@
 {
 ( 3816 -2960 -628 ) ( 3816 -2832 -624 ) ( 3816 -2960 -624 ) floor_blue_c [ 0 -1 0 16 ] [ 0 0 -1 -32 ] 0 1 1
 ( 3784 -2976 -704 ) ( 3656 -2976 -672 ) ( 3784 -2976 -672 ) bltrim6 [ -1 0 0 -37.75122 ] [ 0 0 -1 1.8285522 ] 180 -0.5865402 1.09375
-( 5704 -3936 -628 ) ( 5928 -4048 -628 ) ( 5928 -3936 -628 ) floor_blue_c [ -1 0 0 8 ] [ 0 -1 0 -16 ] 180 1 1
+( 5704 -3936 -628 ) ( 5928 -4048 -628 ) ( 5928 -3936 -628 ) concrete1 [ 0 -1.0000000000000002 0 0 ] [ -1.0000000000000002 0 0 52 ] 0 1 1
 ( 5704 -3936 -624 ) ( 5928 -3936 -624 ) ( 5928 -4048 -624 ) floor_blue_c [ -1 0 0 8 ] [ 0 -1 0 -16 ] 180 1 1
 ( 3784 -2960 -704 ) ( 3784 -2960 -672 ) ( 3656 -2960 -672 ) newbrick6 [ -1 0 0 -24 ] [ 0 0 -1 -32 ] 180 -1 1
 ( 3944 -3936 -736 ) ( 3944 -4048 -760 ) ( 3944 -4048 -736 ) floor_blue_c [ 0 1 0 16 ] [ 0 0 -1 -32 ] 0 1 1
@@ -14860,6 +14860,8 @@
 "sounds" "4"
 "target" "t_s01"
 "speed" "175"
+"target2" "pivotdoor"
+"message" "Seems to have a moving mechanism."
 // brush 0
 {
 ( 1904 128 -352 ) ( 1904 112 -352 ) ( 1904 112 -536 ) aztecbrik1 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -14874,7 +14876,7 @@
 // entity 196
 {
 "classname" "item_health"
-"origin" "1952 120 -352"
+"origin" "1958 122 -352"
 "spawnflags" "2"
 }
 // entity 197
@@ -15156,7 +15158,7 @@
 {
 "classname" "item_runeshard"
 "origin" "2528 -480 -416"
-"message" "Ra`s rune
+"message" "Ra`s rune
 acquired!"
 "target" "runedoor"
 }
@@ -16978,25 +16980,6 @@ acquired!"
 }
 // entity 343
 {
-"classname" "func_door"
-"angle" "-2"
-"targetname" "trapdoor01"
-"wait" "-1"
-"spawnflags" "32"
-"sounds" "4"
-"speed" "500"
-// brush 0
-{
-( -1628 -1900 236 ) ( -1632 -1904 236 ) ( -1632 -1904 192 ) o_metal3_22 [ -0.7071067811865475 -0.7071067811865476 0 -126.36658 ] [ 0 0 -1 64 ] 0 0.8125 1
-( -1632 -1904 236 ) ( -1520 -1904 236 ) ( -1520 -1904 192 ) o_metal3_22 [ -1 0 0 -83.69226 ] [ 0 0 -1 64 ] 0 0.8125 1
-( -1632 -1904 192 ) ( -1520 -1904 192 ) ( -1524 -1900 192 ) o_metal3_22 [ -1 0 0 0 ] [ 0 -1 0 -32 ] 0 1 1
-( -1524 -1900 272 ) ( -1520 -1904 272 ) ( -1632 -1904 272 ) o_metal3_22 [ 1 0 0 0 ] [ 0 -1 0 -32 ] 0 1 1
-( -1524 -1900 192 ) ( -1524 -1900 236 ) ( -1628 -1900 236 ) o_metal3_22 [ -1 0 0 -339.69226 ] [ 0 0 -1 64 ] 0 0.8125 1
-( -1520 -1904 192 ) ( -1520 -1904 236 ) ( -1524 -1900 236 ) o_metal3_22 [ -0.7071067811865475 0.7071067811865476 0 71.227264 ] [ 0 0 -1 63 ] 0 0.8125 1
-}
-}
-// entity 344
-{
 "classname" "func_wall"
 "alpha" "0.5"
 // brush 0
@@ -17009,7 +16992,7 @@ acquired!"
 ( -1384 -2144 -296 ) ( -1384 -1920 -320 ) ( -1384 -2144 -320 ) glass03 [ 6.123233995736767e-17 -1.0000000000000002 0 -24 ] [ 0 0 -1.0000000000000002 32 ] 0 1 1
 }
 }
-// entity 345
+// entity 344
 {
 "classname" "func_detail"
 // brush 0
@@ -17022,7 +17005,7 @@ acquired!"
 ( -960 -1008 160 ) ( -960 -1024 96 ) ( -960 -1024 160 ) o_base4_3 [ 0 1.0000000000000002 0 52 ] [ 0 0 -1.0000000000000002 -29 ] 0 1 1
 }
 }
-// entity 346
+// entity 345
 {
 "classname" "func_detail"
 // brush 0
@@ -17035,7 +17018,7 @@ acquired!"
 ( -832 -1520 160 ) ( -832 -1456 96 ) ( -832 -1520 96 ) o_base4_3 [ -6.123233995736766e-17 1 0 48 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 347
+// entity 346
 {
 "classname" "func_detail"
 // brush 0
@@ -17048,7 +17031,7 @@ acquired!"
 ( -1456 -1008 160 ) ( -1456 -1024 96 ) ( -1456 -1024 160 ) o_base4_3 [ -2.449293598294707e-16 1.0000000000000002 0 -12 ] [ 0 0 -1.0000000000000002 -29 ] 0 1 1
 }
 }
-// entity 348
+// entity 347
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17061,7 +17044,7 @@ acquired!"
 ( -832 -1424 -224 ) ( -832 -1456 -240 ) ( -832 -1456 -224 ) o_base7_3 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 349
+// entity 348
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17074,7 +17057,7 @@ acquired!"
 ( -832 -1776 -224 ) ( -832 -1808 -240 ) ( -832 -1808 -224 ) o_base7_3 [ 0 1 0 96 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 350
+// entity 349
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17087,7 +17070,7 @@ acquired!"
 ( -984 -1008 64 ) ( -984 -1024 -16 ) ( -984 -1024 64 ) o_grate1_3 [ 0 1.0000000000000002 0 -8 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 351
+// entity 350
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17100,7 +17083,7 @@ acquired!"
 ( -1480 -1008 64 ) ( -1480 -1024 -16 ) ( -1480 -1024 64 ) o_grate1_3 [ 0 1.0000000000000002 0 -8 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 352
+// entity 351
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17113,7 +17096,7 @@ acquired!"
 ( -832 -1512 64 ) ( -832 -1480 -16 ) ( -832 -1512 -16 ) o_grate1_3 [ -6.123233995736766e-17 1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 353
+// entity 352
 {
 "classname" "func_detail"
 // brush 0
@@ -17126,7 +17109,7 @@ acquired!"
 ( -1184 -1888 -64 ) ( -1184 -1904 -160 ) ( -1184 -1904 -64 ) o_metal2_3 [ 0 1.0000000000000002 0 44 ] [ 0 0 -1.0000000000000002 32 ] 0 1 1
 }
 }
-// entity 354
+// entity 353
 {
 "classname" "func_door"
 "angle" "-2"
@@ -17207,7 +17190,7 @@ acquired!"
 ( -1448 -1064 -64 ) ( -1440 -1072 -80 ) ( -1440 -1072 -64 ) clip [ -1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 -8 ] 90 1 1
 }
 }
-// entity 355
+// entity 354
 {
 "classname" "func_detail"
 // brush 0
@@ -17220,7 +17203,7 @@ acquired!"
 ( -1484 -160 -440 ) ( -1484 64 -464 ) ( -1484 -160 -464 ) o_metal3_36 [ 0 -0.9999999999999962 -8.742278018170069e-08 -21.388351 ] [ 0 -8.742278018170069e-08 0.9999999999999962 -23 ] 180 0.9770502 1
 }
 }
-// entity 356
+// entity 355
 {
 "classname" "func_detail"
 // brush 0
@@ -17233,7 +17216,7 @@ acquired!"
 ( -1484 -160 -520 ) ( -1484 64 -544 ) ( -1484 -160 -544 ) o_metal3_36 [ 0 -0.9999999999999962 -8.742278018170069e-08 -21.388367 ] [ 0 -8.742278018170069e-08 0.9999999999999962 57 ] 180 0.9770502 1
 }
 }
-// entity 357
+// entity 356
 {
 "classname" "func_detail"
 // brush 0
@@ -17246,7 +17229,7 @@ acquired!"
 ( -992 576 -392 ) ( -992 576 -416 ) ( -992 352 -416 ) o_metal3_36 [ 1.2246467991473485e-16 -0.9999999999999962 -8.742278018170069e-08 32 ] [ 1.0706202792208241e-23 -8.742278018170069e-08 0.9999999999999962 -47.999996 ] 179.99998 1 1
 }
 }
-// entity 358
+// entity 357
 {
 "classname" "func_detail"
 // brush 0
@@ -17259,7 +17242,7 @@ acquired!"
 ( -992 576 -520 ) ( -992 576 -544 ) ( -992 352 -544 ) o_metal3_36 [ 1.2246467991473485e-16 -0.9999999999999962 -8.742278018170069e-08 32 ] [ 1.0706202792208241e-23 -8.742278018170069e-08 0.9999999999999962 16.00003 ] 179.99998 1 1
 }
 }
-// entity 359
+// entity 358
 {
 "classname" "func_detail"
 // brush 0
@@ -17272,7 +17255,7 @@ acquired!"
 ( 588 -3296 400 ) ( 588 -3424 368 ) ( 588 -3424 400 ) mural6 [ 0 1 0 -96 ] [ 0 0 -1 16 ] 0 -1 1
 }
 }
-// entity 360
+// entity 359
 {
 "classname" "trigger_multiple"
 "wait" "3"
@@ -17287,7 +17270,7 @@ acquired!"
 ( 584 -3424 400 ) ( 584 -3296 400 ) ( 584 -3296 368 ) trigger [ 0 -1 0 -96 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 361
+// entity 360
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17300,7 +17283,7 @@ acquired!"
 ( -88 -538 -400 ) ( -88 -538 -399.25 ) ( -88 -537.25 -400 ) trim1a [ 8.16431199431569e-17 8.16431199431569e-17 1.3333333333333335 53.333344 ] [ 0 -1.3333333333333335 8.16431199431569e-17 -18.666687 ] 90 1 1
 }
 }
-// entity 362
+// entity 361
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17313,7 +17296,7 @@ acquired!"
 ( -88 -382 -400 ) ( -88 -382 -399.25 ) ( -88 -381.25 -400 ) trim1a [ 8.16431199431569e-17 8.16431199431569e-17 1.3333333333333335 53.333344 ] [ 0 -1.3333333333333335 8.16431199431569e-17 -2.666687 ] 90 1 1
 }
 }
-// entity 363
+// entity 362
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17326,7 +17309,7 @@ acquired!"
 ( 136 -382 -400 ) ( 136 -382 -399.25 ) ( 136 -381.25 -400 ) trim1a [ 8.16431199431569e-17 8.16431199431569e-17 1.3333333333333335 53.333344 ] [ 0 -1.3333333333333335 8.16431199431569e-17 -2.666687 ] 90 1 1
 }
 }
-// entity 364
+// entity 363
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17339,7 +17322,7 @@ acquired!"
 ( 136 -538 -400 ) ( 136 -538 -399.25 ) ( 136 -537.25 -400 ) trim1a [ 8.16431199431569e-17 8.16431199431569e-17 1.3333333333333335 53.333344 ] [ 0 -1.3333333333333335 8.16431199431569e-17 -18.666687 ] 90 1 1
 }
 }
-// entity 365
+// entity 364
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17352,7 +17335,7 @@ acquired!"
 ( -768 -620.8 -144 ) ( -773.9422508216657 -605.9443729458358 -208 ) ( -768 -620.8 -208 ) fishtrim3 [ -0.37139067635406975 0.9284766908852731 0 32.15454 ] [ 0 0 -1 -16 ] 0 1 1
 }
 }
-// entity 366
+// entity 365
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17365,7 +17348,7 @@ acquired!"
 ( -816 -287.20000000000005 -144 ) ( -816 -287.20000000000005 -208 ) ( -821.9422508216657 -302.05562705416423 -208 ) fishtrim2 [ -0.37139067635406975 -0.9284766908852731 0 -2.6490479 ] [ 0 0 -1 -16 ] 180 -1 1
 }
 }
-// entity 367
+// entity 366
 {
 "classname" "func_door"
 "angle" "-2"
@@ -17437,7 +17420,7 @@ acquired!"
 ( -1448 -1352 24 ) ( -1440 -1360 8 ) ( -1440 -1360 24 ) clip [ 0.5000000000000001 -0.4999999999999998 0 37.823364 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 368
+// entity 367
 {
 "classname" "func_door"
 "angle" "-2"
@@ -17455,14 +17438,14 @@ acquired!"
 ( -1448 -1544 24 ) ( -1440 -1536 24 ) ( -1440 -1536 8 ) clip [ 0.5000000000000001 0.4999999999999998 0 13.823364 ] [ 0 0 -1 24 ] 180 1 1
 }
 }
-// entity 369
+// entity 368
 {
 "classname" "trigger_relay"
 "origin" "-1608 -2056 -200"
 "targetname" "tr01"
 "target" "secretdoor02"
 }
-// entity 370
+// entity 369
 {
 "classname" "trigger_secret"
 // brush 0
@@ -17475,7 +17458,7 @@ acquired!"
 ( -1664 -2208 -232 ) ( -1664 -2096 -232 ) ( -1664 -2096 -256 ) trigger [ 0 -1 0 -32 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 371
+// entity 370
 {
 "classname" "func_door"
 "angle" "-2"
@@ -17495,7 +17478,7 @@ acquired!"
 ( -1654 -2352 -232 ) ( -1654 -2240 -232 ) ( -1654 -2240 -256 ) skip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 372
+// entity 371
 {
 "classname" "func_door"
 "angle" "270"
@@ -17549,13 +17532,13 @@ acquired!"
 ( -1656 -2192 -160 ) ( -1656 -2154 -160 ) ( -1656 -2154 -166 ) o_sdoor01 [ 0 2.9565622997051555e-07 -0.9999999999999556 80.00064 ] [ 0 0.9999999999999556 2.9565622997051555e-07 80 ] 90.000015 1 1
 }
 }
-// entity 373
+// entity 372
 {
 "classname" "item_health"
 "origin" "-1744 -2128 -280"
 "spawnflags" "2"
 }
-// entity 374
+// entity 373
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17577,7 +17560,7 @@ acquired!"
 ( 3952 -544 -416 ) ( 3952 -560 -600 ) ( 3952 -560 -416 ) concrete1 [ 0 1 0 0 ] [ 0 0 -1 -48 ] 0 1 1
 }
 }
-// entity 375
+// entity 374
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -17586,13 +17569,13 @@ acquired!"
 "_tb_linked_group_id" "{4c0695f8-4566-44fd-bfca-ccb9ad07f81c}"
 "_tb_transformation" "1 0 0 -16 0 1 0 -192 0 0 1 0 0 0 0 1"
 }
-// entity 376
+// entity 375
 {
 "classname" "light"
 "origin" "64 -3920 100"
 "_tb_group" "32"
 }
-// entity 377
+// entity 376
 {
 "classname" "func_detail_illusionary"
 "_tb_group" "32"
@@ -17606,7 +17589,7 @@ acquired!"
 ( 80 -3920 112 ) ( 80 -3936 96 ) ( 80 -3936 112 ) koo_lite [ 0 0 -1.0000000000000002 12 ] [ 0 -1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 378
+// entity 377
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -17615,13 +17598,13 @@ acquired!"
 "_tb_linked_group_id" "{4c0695f8-4566-44fd-bfca-ccb9ad07f81c}"
 "_tb_transformation" "1 0 0 -16 0 1 0 0 0 0 1 0 0 0 0 1"
 }
-// entity 379
+// entity 378
 {
 "classname" "light"
 "origin" "64 -3728 100"
 "_tb_group" "34"
 }
-// entity 380
+// entity 379
 {
 "classname" "func_detail_illusionary"
 "_tb_group" "34"
@@ -17635,21 +17618,21 @@ acquired!"
 ( 80 -3728 112 ) ( 80 -3744 96 ) ( 80 -3744 112 ) koo_lite [ 0 0 -1.0000000000000002 12 ] [ 0 -1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 381
+// entity 380
 {
 "classname" "light"
 "origin" "196 -4200 136"
 "wait" "2"
 "style" "2"
 }
-// entity 382
+// entity 381
 {
 "classname" "light"
 "origin" "-36 -4200 136"
 "wait" "2"
 "style" "2"
 }
-// entity 383
+// entity 382
 {
 "classname" "light"
 "origin" "480 -3232 400"
@@ -17658,13 +17641,13 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 384
+// entity 383
 {
 "classname" "light"
 "origin" "480 -3234 400"
 "wait" "0.5"
 }
-// entity 385
+// entity 384
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17677,7 +17660,7 @@ acquired!"
 ( 512 -3232 432 ) ( 512 -3280 416 ) ( 512 -3280 432 ) dzdkh_litew [ 0 0 -1.0000000000000002 -24 ] [ 0 -1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 386
+// entity 385
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -17690,7 +17673,7 @@ acquired!"
 ( -256 -3232 432 ) ( -256 -3280 416 ) ( -256 -3280 432 ) dzdkh_litew [ 0 0 -1.0000000000000002 -24 ] [ 0 -1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 387
+// entity 386
 {
 "classname" "light"
 "origin" "-288 -3232 400"
@@ -17699,13 +17682,13 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 388
+// entity 387
 {
 "classname" "light"
 "origin" "-288 -3234 400"
 "wait" "0.5"
 }
-// entity 389
+// entity 388
 {
 "classname" "light"
 "origin" "68 -3672.27 269.929"
@@ -17717,7 +17700,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 390
+// entity 389
 {
 "classname" "light"
 "origin" "64 -3672 272"
@@ -17726,7 +17709,7 @@ acquired!"
 "_color" "230 86 18"
 "delay" "1"
 }
-// entity 391
+// entity 390
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -17735,7 +17718,7 @@ acquired!"
 "_tb_linked_group_id" "{7d5aee45-a18b-41c2-b430-844d23f2c43e}"
 "_tb_transformation" "1 0 0 640 0 1 0 192 0 0 1 16 0 0 0 1"
 }
-// entity 392
+// entity 391
 {
 "classname" "light"
 "origin" "424 -3192 96"
@@ -17743,7 +17726,7 @@ acquired!"
 "light" "60"
 "_tb_group" "35"
 }
-// entity 393
+// entity 392
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -17752,7 +17735,7 @@ acquired!"
 "_tb_linked_group_id" "{7d5aee45-a18b-41c2-b430-844d23f2c43e}"
 "_tb_transformation" "1 0 0 0 0 1 0 0 0 0 1 16 0 0 0 1"
 }
-// entity 394
+// entity 393
 {
 "classname" "light"
 "origin" "-216 -3384 96"
@@ -17760,7 +17743,7 @@ acquired!"
 "light" "60"
 "_tb_group" "36"
 }
-// entity 395
+// entity 394
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -17769,7 +17752,7 @@ acquired!"
 "_tb_linked_group_id" "{7d5aee45-a18b-41c2-b430-844d23f2c43e}"
 "_tb_transformation" "1 0 0 -32 0 1 0 304 0 0 1 16 0 0 0 1"
 }
-// entity 396
+// entity 395
 {
 "classname" "light"
 "origin" "-248 -3080 96"
@@ -17777,7 +17760,7 @@ acquired!"
 "light" "60"
 "_tb_group" "37"
 }
-// entity 397
+// entity 396
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -17786,7 +17769,7 @@ acquired!"
 "_tb_linked_group_id" "{7d5aee45-a18b-41c2-b430-844d23f2c43e}"
 "_tb_transformation" "1 0 0 656 0 1 0 -48 0 0 1 16 0 0 0 1"
 }
-// entity 398
+// entity 397
 {
 "classname" "light"
 "origin" "440 -3432 96"
@@ -17794,7 +17777,7 @@ acquired!"
 "light" "60"
 "_tb_group" "38"
 }
-// entity 399
+// entity 398
 {
 "classname" "func_detail"
 // brush 0
@@ -17816,7 +17799,7 @@ acquired!"
 ( 16 -3520 40 ) ( 16 -3520 41 ) ( 16 -3519 40 ) newwall4 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 400
+// entity 399
 {
 "classname" "func_detail"
 // brush 0
@@ -17829,7 +17812,7 @@ acquired!"
 ( 76 -2704 176 ) ( 76 -2800 164 ) ( 76 -2800 176 ) o_light03d [ 0 0 -1.3333333333333337 6.6666718 ] [ 0 -1.3333333333333337 0 -21.333252 ] 0 1 1
 }
 }
-// entity 401
+// entity 400
 {
 "classname" "light"
 "origin" "64 -2755.4 163.236"
@@ -17837,12 +17820,12 @@ acquired!"
 "_softangle" "50"
 "angle" "100"
 }
-// entity 402
+// entity 401
 {
 "classname" "light"
 "origin" "64 -2750 164"
 }
-// entity 403
+// entity 402
 {
 "classname" "func_detail"
 // brush 0
@@ -17855,12 +17838,12 @@ acquired!"
 ( 320 -2396 128 ) ( 320 -2372 116 ) ( 320 -2396 116 ) o_light03d [ -8.16431199431569e-17 1.3333333333333337 0 -5.333252 ] [ 0 0 -1.3333333333333337 38.66667 ] 0 1 1
 }
 }
-// entity 404
+// entity 403
 {
 "classname" "light"
 "origin" "274 -2384 116"
 }
-// entity 405
+// entity 404
 {
 "classname" "light"
 "origin" "268.6 -2384 115.236"
@@ -17868,19 +17851,19 @@ acquired!"
 "_softangle" "50"
 "angle" "100"
 }
-// entity 406
+// entity 405
 {
 "classname" "light_torch_small_walltorch"
 "origin" "688 -2418 44"
 "wait" "1.2"
 }
-// entity 407
+// entity 406
 {
 "classname" "light_torch_small_walltorch"
 "origin" "4 -2340 52"
 "wait" "1.2"
 }
-// entity 408
+// entity 407
 {
 "classname" "func_detail"
 // brush 0
@@ -17902,18 +17885,18 @@ acquired!"
 ( 728 -3248 -8 ) ( 728 -3248 -7 ) ( 728 -3247 -8 ) newwall4 [ 0 1 0 -16 ] [ 0 0 -1 -48 ] 0 1 1
 }
 }
-// entity 409
+// entity 408
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-284 -1552 60"
 }
-// entity 410
+// entity 409
 {
 "classname" "light"
 "origin" "0 -1568 160"
 "wait" "1.1"
 }
-// entity 411
+// entity 410
 {
 "classname" "light"
 "origin" "0 -1572 160"
@@ -17922,7 +17905,7 @@ acquired!"
 "angle" "90"
 "wait" "1.5"
 }
-// entity 412
+// entity 411
 {
 "classname" "func_detail"
 "wait" "1.5"
@@ -17936,13 +17919,13 @@ acquired!"
 ( 16 -1552 176 ) ( 16 -1536 160 ) ( 16 -1552 160 ) o_wlight4 [ 0 -4.371139000186243e-08 0.9999999999999992 20 ] [ 0 0.9999999999999992 4.371139000186243e-08 63.999878 ] 180 1 1
 }
 }
-// entity 413
+// entity 412
 {
 "classname" "light"
 "origin" "1232 -1568 160"
 "wait" "1.1"
 }
-// entity 414
+// entity 413
 {
 "classname" "light"
 "origin" "1232 -1572 160"
@@ -17951,7 +17934,7 @@ acquired!"
 "angle" "90"
 "wait" "1.5"
 }
-// entity 415
+// entity 414
 {
 "classname" "func_detail"
 "wait" "1.5"
@@ -17965,7 +17948,7 @@ acquired!"
 ( 1248 -1552 176 ) ( 1248 -1536 160 ) ( 1248 -1552 160 ) o_wlight4 [ 0 -4.371139000186243e-08 0.9999999999999992 20 ] [ 0 0.9999999999999992 4.371139000186243e-08 63.999878 ] 180 1 1
 }
 }
-// entity 416
+// entity 415
 {
 "classname" "func_group"
 "_minlight" "400"
@@ -18015,7 +17998,7 @@ acquired!"
 ( -64 -1344 -24 ) ( -64 -1472 -48 ) ( -64 -1472 -24 ) wall_blue_c [ 0 1 0 -16 ] [ 0 0 -1 -16 ] 0 1 1
 }
 }
-// entity 417
+// entity 416
 {
 "classname" "func_detail"
 // brush 0
@@ -18028,7 +18011,7 @@ acquired!"
 ( 784 -832 48 ) ( 784 -833 48 ) ( 784 -832 49 ) o_con4_1 [ 1.2246467991473532e-16 -1 0 0 ] [ 0 0 -1 32 ] 0 1 1
 }
 }
-// entity 418
+// entity 417
 {
 "classname" "func_detail"
 // brush 0
@@ -18041,14 +18024,14 @@ acquired!"
 ( 520 -832 48 ) ( 520 -833 48 ) ( 520 -832 49 ) o_con4_1 [ 1.2246467991473532e-16 -1 0 0 ] [ 0 0 -1 32 ] 0 1 1
 }
 }
-// entity 419
+// entity 418
 {
 "classname" "light"
 "origin" "652 -2020 160"
 "_color" "193 36 8"
 "delay" "5"
 }
-// entity 420
+// entity 419
 {
 "classname" "func_group"
 "_minlight" "50"
@@ -18062,7 +18045,7 @@ acquired!"
 ( 1200 -2688 8 ) ( 1200 -2688 9 ) ( 1200 -2687 8 ) o_metal6_3 [ 0 -4.371139006309477e-08 0.999999999999999 0 ] [ 0 0.999999999999999 4.371139006309477e-08 -8 ] -90 1 1
 }
 }
-// entity 421
+// entity 420
 {
 "classname" "func_group"
 "_minlight" "80"
@@ -18085,7 +18068,7 @@ acquired!"
 ( 601 -3312 8 ) ( 601 -3312 9 ) ( 601 -3311 8 ) floor_blue_c [ 0 1 0 -16 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 422
+// entity 421
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18094,7 +18077,7 @@ acquired!"
 "_tb_linked_group_id" "{7d5aee45-a18b-41c2-b430-844d23f2c43e}"
 "_tb_transformation" "1 0 0 288 0 1 0 336 0 0 1 16 0 0 0 1"
 }
-// entity 423
+// entity 422
 {
 "classname" "light"
 "origin" "72 -3048 96"
@@ -18103,7 +18086,7 @@ acquired!"
 "_tb_group" "41"
 "_tb_protected_properties" "light"
 }
-// entity 424
+// entity 423
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18112,7 +18095,7 @@ acquired!"
 "_tb_linked_group_id" "{7d5aee45-a18b-41c2-b430-844d23f2c43e}"
 "_tb_transformation" "1 0 0 288 0 1 0 432 0 0 1 16 0 0 0 1"
 }
-// entity 425
+// entity 424
 {
 "classname" "light"
 "origin" "72 -2952 96"
@@ -18121,7 +18104,7 @@ acquired!"
 "_tb_group" "42"
 "_tb_protected_properties" "light"
 }
-// entity 426
+// entity 425
 {
 "classname" "func_group"
 "_minlight" "69"
@@ -18143,7 +18126,7 @@ acquired!"
 ( 1032 -1304 8 ) ( 1032 -1320 -56 ) ( 1032 -1320 8 ) o_metal1_17 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 427
+// entity 426
 {
 "classname" "func_group"
 "_minlight" "69"
@@ -18199,31 +18182,31 @@ acquired!"
 ( 296 -1304 8 ) ( 296 -1320 -56 ) ( 296 -1320 8 ) o_metal1_17 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 428
+// entity 427
 {
 "classname" "light_torch_small_walltorch"
 "origin" "388 -1300 -339"
 "wait" "0.8"
 }
-// entity 429
+// entity 428
 {
 "classname" "light_torch_small_walltorch"
 "origin" "892 -1300 -339"
 "wait" "0.8"
 }
-// entity 430
+// entity 429
 {
 "classname" "light_torch_small_walltorch"
 "origin" "884 -1948 -339"
 "wait" "1"
 }
-// entity 431
+// entity 430
 {
 "classname" "light_torch_small_walltorch"
 "origin" "380 -1948 -339"
 "wait" "1"
 }
-// entity 432
+// entity 431
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -18245,56 +18228,56 @@ acquired!"
 ( 681 -1410 -456 ) ( 681 -1410 -452 ) ( 590 -1319 -452 ) kh_lite2b2 [ -3.0741674584220634e-08 3.074247847155963e-08 -0.9999999999999992 -3.9999695 ] [ 0.703296703296685 -0.7032967032966885 -4.371139506031841e-08 -62.593506 ] 270 1 1
 }
 }
-// entity 433
+// entity 432
 {
 "classname" "light"
 "origin" "648 -1872 -444"
 "wait" "1.5"
 }
-// entity 434
+// entity 433
 {
 "classname" "light"
 "origin" "628 -1364 -444"
 "wait" "1.5"
 "style" "10"
 }
-// entity 435
+// entity 434
 {
 "classname" "light_torch_small_walltorch"
 "origin" "828 -1560 -400"
 }
-// entity 436
+// entity 435
 {
 "classname" "light_torch_small_walltorch"
 "origin" "436 -1708 -404"
 }
-// entity 437
+// entity 436
 {
 "classname" "light"
 "origin" "920 -1640 -336"
 "wait" "0.1"
 "light" "60"
 }
-// entity 438
+// entity 437
 {
 "classname" "light"
 "origin" "280 -1656 -336"
 "wait" "0.1"
 "light" "60"
 }
-// entity 439
+// entity 438
 {
 "classname" "light_torch_small_walltorch"
 "origin" "228 -1776 -339"
 "wait" "1"
 }
-// entity 440
+// entity 439
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1020 -1776 -339"
 "wait" "1"
 }
-// entity 441
+// entity 440
 {
 "classname" "func_detail"
 // brush 0
@@ -18316,7 +18299,7 @@ acquired!"
 ( 1024 -1856 -456 ) ( 1024 -1856 -336 ) ( 1008 -1840 -336 ) o_metal1_17d [ -0.7071067811865476 0.7071067811865476 0 0 ] [ -0 0 -1 0 ] 0 1 1
 }
 }
-// entity 442
+// entity 441
 {
 "classname" "func_detail"
 // brush 0
@@ -18338,45 +18321,45 @@ acquired!"
 ( 320 -1920 -456 ) ( 320 -1920 -336 ) ( 320 -1872 -336 ) o_metal1_17d [ -6.123233995736766e-17 1 0 16 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 443
+// entity 442
 {
 "classname" "light"
 "origin" "984 -1896 -296"
 "wait" "0.1"
 "light" "65"
 }
-// entity 444
+// entity 443
 {
 "classname" "light"
 "origin" "264 -1896 -296"
 "wait" "0.1"
 "light" "65"
 }
-// entity 445
+// entity 444
 {
 "classname" "light_torch_small_walltorch"
 "origin" "572 -868 -404"
 }
-// entity 446
+// entity 445
 {
 "classname" "light"
 "origin" "648 -1176 -400"
 "wait" "0.1"
 "light" "50"
 }
-// entity 447
+// entity 446
 {
 "classname" "light_torch_small_walltorch"
 "origin" "404 -532 -404"
 }
-// entity 448
+// entity 447
 {
 "classname" "light"
 "origin" "568 -664 -400"
 "wait" "0.1"
 "light" "50"
 }
-// entity 449
+// entity 448
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18384,7 +18367,7 @@ acquired!"
 "_tb_id" "43"
 "_tb_linked_group_id" "{be6e8fcd-b847-4cb7-a4e2-60b7069dcfee}"
 }
-// entity 450
+// entity 449
 {
 "classname" "func_detail"
 "_tb_group" "43"
@@ -18398,7 +18381,7 @@ acquired!"
 ( 320 -452 -288 ) ( 320 -476 -300 ) ( 320 -476 -288 ) kh_lite1b2 [ 0 -5.828185341745969e-08 1.3333333333333321 0 ] [ 0 1.3333333333333321 5.828185341745969e-08 26.666687 ] 270 1 1
 }
 }
-// entity 451
+// entity 450
 {
 "classname" "light"
 "origin" "296 -464 -298"
@@ -18406,7 +18389,7 @@ acquired!"
 "light" "325"
 "_tb_group" "43"
 }
-// entity 452
+// entity 451
 {
 "classname" "light"
 "origin" "302 -464 -298"
@@ -18417,7 +18400,7 @@ acquired!"
 "delay" "1"
 "_tb_group" "43"
 }
-// entity 453
+// entity 452
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18426,7 +18409,7 @@ acquired!"
 "_tb_linked_group_id" "{6f15bb6a-c575-4a21-b50c-c5604adbbb7c}"
 "_tb_transformation" "1 0 0 248 0 1 0 0 0 0 1 0 0 0 0 1"
 }
-// entity 454
+// entity 453
 {
 "classname" "func_detail"
 "_tb_group" "44"
@@ -18440,7 +18423,7 @@ acquired!"
 ( 568 -452 -288 ) ( 568 -476 -300 ) ( 568 -476 -288 ) kh_lite1b2 [ 0 -5.828185341745969e-08 1.3333333333333321 0 ] [ 0 1.3333333333333321 5.828185341745969e-08 26.666687 ] 270 1 1
 }
 }
-// entity 455
+// entity 454
 {
 "classname" "light"
 "origin" "544 -464 -298"
@@ -18448,7 +18431,7 @@ acquired!"
 "light" "325"
 "_tb_group" "44"
 }
-// entity 456
+// entity 455
 {
 "classname" "light"
 "origin" "550 -464 -298"
@@ -18459,7 +18442,7 @@ acquired!"
 "delay" "1"
 "_tb_group" "44"
 }
-// entity 457
+// entity 456
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18468,7 +18451,7 @@ acquired!"
 "_tb_linked_group_id" "{6888dd39-bb5a-425d-a556-d7226abcc70a}"
 "_tb_transformation" "6.123233995736766e-17 1 0 584 -1 6.123233995736766e-17 0 -168 0 0 1 0 0 0 0 1"
 }
-// entity 458
+// entity 457
 {
 "classname" "func_detail"
 "_tb_group" "45"
@@ -18482,7 +18465,7 @@ acquired!"
 ( 132 -488 -288 ) ( 132 -452 -300 ) ( 132 -488 -300 ) kh_lite1b2 [ 3.5687342618033625e-24 -5.828185341745969e-08 1.3333333333333321 0 ] [ -8.16431199431568e-17 1.3333333333333321 5.828185341745969e-08 10.666687 ] 270 1 1
 }
 }
-// entity 459
+// entity 458
 {
 "classname" "light"
 "origin" "120 -464 -298"
@@ -18490,7 +18473,7 @@ acquired!"
 "light" "325"
 "_tb_group" "45"
 }
-// entity 460
+// entity 459
 {
 "classname" "light"
 "origin" "120 -470 -298"
@@ -18501,12 +18484,12 @@ acquired!"
 "delay" "1"
 "_tb_group" "45"
 }
-// entity 461
+// entity 460
 {
 "classname" "light"
 "origin" "956 -736 -320"
 }
-// entity 462
+// entity 461
 {
 "classname" "light"
 "origin" "944 -736 -320"
@@ -18514,7 +18497,7 @@ acquired!"
 "angle" "80"
 "_softangle" "58"
 }
-// entity 463
+// entity 462
 {
 "classname" "light"
 "origin" "952 -208 -320"
@@ -18522,24 +18505,24 @@ acquired!"
 "angle" "80"
 "_softangle" "58"
 }
-// entity 464
+// entity 463
 {
 "classname" "light"
 "origin" "940 -208 -320"
 }
-// entity 465
+// entity 464
 {
 "classname" "light_torch_small_walltorch"
 "origin" "756 -644 -404"
 "wait" "1"
 }
-// entity 466
+// entity 465
 {
 "classname" "light_torch_small_walltorch"
 "origin" "772 -292 -404"
 "wait" "1"
 }
-// entity 467
+// entity 466
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18548,7 +18531,7 @@ acquired!"
 "_tb_linked_group_id" "{166e0837-0620-493f-b022-ac1a738b78dc}"
 "_tb_transformation" "6.123233995736766e-17 1 0 1456 -1 6.123233995736766e-17 0 -160 0 0 1 48 0 0 0 1"
 }
-// entity 468
+// entity 467
 {
 "classname" "func_detail"
 "_tb_group" "46"
@@ -18562,7 +18545,7 @@ acquired!"
 ( 1004 -480 -240 ) ( 1004 -444 -252 ) ( 1004 -480 -252 ) kh_lite1b2 [ 3.5687342618033625e-24 -5.828185341745969e-08 1.3333333333333321 0 ] [ -8.16431199431568e-17 1.3333333333333321 5.828185341745969e-08 0 ] 270 1 1
 }
 }
-// entity 469
+// entity 468
 {
 "classname" "light"
 "origin" "992 -456 -250"
@@ -18570,7 +18553,7 @@ acquired!"
 "light" "325"
 "_tb_group" "46"
 }
-// entity 470
+// entity 469
 {
 "classname" "light"
 "origin" "992 -462 -250"
@@ -18581,7 +18564,7 @@ acquired!"
 "delay" "1"
 "_tb_group" "46"
 }
-// entity 471
+// entity 470
 {
 "classname" "func_detail"
 // brush 0
@@ -18594,13 +18577,13 @@ acquired!"
 ( 1136 -448 -256 ) ( 1136 -480 -288 ) ( 1136 -480 -256 ) kh_lite1a [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 472
+// entity 471
 {
 "classname" "light"
 "origin" "1112 -464 -272"
 "wait" "1.1"
 }
-// entity 473
+// entity 472
 {
 "classname" "func_group"
 "_minlight" "65"
@@ -18627,7 +18610,7 @@ acquired!"
 ( 1136 -752 -288 ) ( 1136 -784 -256 ) ( 1136 -768 -256 ) o_rust4_0 [ 0 1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 474
+// entity 473
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18635,13 +18618,13 @@ acquired!"
 "_tb_id" "47"
 "_tb_linked_group_id" "{751c7ab8-51d6-494c-abd3-3e37d038905f}"
 }
-// entity 475
+// entity 474
 {
 "classname" "light"
 "origin" "648 -2126 116"
 "_tb_group" "47"
 }
-// entity 476
+// entity 475
 {
 "classname" "func_detail"
 "_tb_group" "47"
@@ -18655,7 +18638,7 @@ acquired!"
 ( 660 -2080 128 ) ( 660 -2176 116 ) ( 660 -2176 128 ) o_light03d [ 0 0 -1.3333333333333337 -25.333328 ] [ 0 -1.3333333333333337 0 42.666748 ] 0 1 1
 }
 }
-// entity 477
+// entity 476
 {
 "classname" "light"
 "origin" "656 -2131.4 115.236"
@@ -18664,7 +18647,7 @@ acquired!"
 "angle" "100"
 "_tb_group" "47"
 }
-// entity 478
+// entity 477
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18673,13 +18656,13 @@ acquired!"
 "_tb_linked_group_id" "{2f0210df-c31b-41c3-a4d0-52de059d95d3}"
 "_tb_transformation" "6.123233995736766e-17 1 0 2504 -1 6.123233995736766e-17 0 184.00000000000017 0 0 1 -256 0 0 0 1"
 }
-// entity 479
+// entity 478
 {
 "classname" "light"
 "origin" "378 -464 -140"
 "_tb_group" "48"
 }
-// entity 480
+// entity 479
 {
 "classname" "func_detail"
 "_tb_group" "48"
@@ -18693,7 +18676,7 @@ acquired!"
 ( 424 -476 -128 ) ( 424 -452 -140 ) ( 424 -476 -140 ) o_light03d [ -8.16431199431569e-17 1.3333333333333337 0 -5.333313 ] [ 0 0 -1.3333333333333337 -46.66667 ] 0 1 1
 }
 }
-// entity 481
+// entity 480
 {
 "classname" "light"
 "origin" "372.6 -472 -140.764"
@@ -18702,7 +18685,7 @@ acquired!"
 "angle" "100"
 "_tb_group" "48"
 }
-// entity 482
+// entity 481
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -18715,21 +18698,21 @@ acquired!"
 ( -128 -384 -120 ) ( -128 -400 -136 ) ( -128 -400 -120 ) o_wlight4 [ 0 -4.371139006309477e-08 0.999999999999999 8 ] [ 0 0.999999999999999 4.371139006309477e-08 0 ] 270 1 1
 }
 }
-// entity 483
+// entity 482
 {
 "classname" "light"
 "origin" "-160 -400 -120"
 "wait" "0.9"
 "delay" "5"
 }
-// entity 484
+// entity 483
 {
 "classname" "light"
 "origin" "-160 -528 -120"
 "wait" "0.9"
 "delay" "5"
 }
-// entity 485
+// entity 484
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -18742,20 +18725,20 @@ acquired!"
 ( -128 -544 -120 ) ( -128 -528 -120 ) ( -128 -528 -136 ) o_wlight4 [ 0 4.371139006309477e-08 0.999999999999999 8.000038 ] [ 0 -0.999999999999999 4.371139006309477e-08 -32 ] 270 1 1
 }
 }
-// entity 486
+// entity 485
 {
 "classname" "light_torch_small_walltorch"
 "origin" "148 -372 -164"
 "wait" "1.2"
 }
-// entity 487
+// entity 486
 {
 "classname" "light"
 "origin" "-168 -518 -264"
 "wait" "0.1"
 "light" "50"
 }
-// entity 488
+// entity 487
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -18768,14 +18751,14 @@ acquired!"
 ( -783 -573 -116 ) ( -783 -573 -112 ) ( -794 -542 -112 ) o_wlight4 [ -0.32532348898094027 0.9168206974581838 -4.371289544358734e-08 14.609957 ] [ -1.4219739064888437e-08 4.0075720846265626e-08 0.999999999999999 -16.000023 ] 179.53662 1 1
 }
 }
-// entity 489
+// entity 488
 {
 "classname" "light"
 "origin" "-816 -568 -128"
 "wait" "1"
 "delay" "5"
 }
-// entity 490
+// entity 489
 {
 "classname" "light"
 "origin" "-816 -564 -128"
@@ -18785,7 +18768,7 @@ acquired!"
 "_softangle" "45"
 "angle" "90"
 }
-// entity 491
+// entity 490
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -18798,7 +18781,7 @@ acquired!"
 ( -788 -370 -116 ) ( -777 -340 -112 ) ( -777 -340 -116 ) o_wlight4 [ 0.34476005305949564 0.9402546472113188 4.3711390246791796e-08 -20.434875 ] [ 1.506994133576746e-08 4.1099837773454506e-08 -0.999999999999999 15.999992 ] 180.13629 1 1
 }
 }
-// entity 492
+// entity 491
 {
 "classname" "light"
 "origin" "-816 -340 -128"
@@ -18808,14 +18791,14 @@ acquired!"
 "_softangle" "45"
 "angle" "90"
 }
-// entity 493
+// entity 492
 {
 "classname" "light"
 "origin" "-816 -344 -128"
 "wait" "1"
 "delay" "5"
 }
-// entity 494
+// entity 493
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18824,7 +18807,7 @@ acquired!"
 "_tb_linked_group_id" "{0a654790-90e1-46b4-9876-67934c824a3f}"
 "_tb_transformation" "6.123233995736766e-17 1 0 56 -1 6.123233995736766e-17 0 -168 0 0 1 192 0 0 0 1"
 }
-// entity 495
+// entity 494
 {
 "classname" "func_detail"
 "_tb_group" "49"
@@ -18838,7 +18821,7 @@ acquired!"
 ( -396 -488 -96 ) ( -396 -452 -108 ) ( -396 -488 -108 ) kh_lite1b2 [ 3.5687342618033625e-24 -5.828185341745969e-08 1.3333333333333321 0 ] [ -8.16431199431568e-17 1.3333333333333321 5.828185341745969e-08 10.666687 ] 270 1 1
 }
 }
-// entity 496
+// entity 495
 {
 "classname" "light"
 "origin" "-408 -464 -106"
@@ -18846,7 +18829,7 @@ acquired!"
 "light" "325"
 "_tb_group" "49"
 }
-// entity 497
+// entity 496
 {
 "classname" "light"
 "origin" "-408 -470 -106"
@@ -18857,19 +18840,19 @@ acquired!"
 "delay" "1"
 "_tb_group" "49"
 }
-// entity 498
+// entity 497
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-980 -460 -196"
 "wait" "1.1"
 }
-// entity 499
+// entity 498
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-1228 -460 -196"
 "wait" "1.1"
 }
-// entity 500
+// entity 499
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18878,7 +18861,7 @@ acquired!"
 "_tb_linked_group_id" "{093ab62a-edae-474b-b508-1b1782be729f}"
 "_tb_transformation" "6.123233995736766e-17 1 0 -776 -1 6.123233995736766e-17 0 232 0 0 1 192 0 0 0 1"
 }
-// entity 501
+// entity 500
 {
 "classname" "func_detail"
 "_tb_group" "50"
@@ -18892,7 +18875,7 @@ acquired!"
 ( -1228 -88 -96 ) ( -1228 -52 -108 ) ( -1228 -88 -108 ) kh_lite1b2 [ 3.5687342618033625e-24 -5.828185341745969e-08 1.3333333333333321 0 ] [ -8.16431199431568e-17 1.3333333333333321 5.828185341745969e-08 -10.666664 ] 270 1 1
 }
 }
-// entity 502
+// entity 501
 {
 "classname" "light"
 "origin" "-1240 -64 -106"
@@ -18900,7 +18883,7 @@ acquired!"
 "light" "325"
 "_tb_group" "50"
 }
-// entity 503
+// entity 502
 {
 "classname" "light"
 "origin" "-1240 -70 -106"
@@ -18911,21 +18894,21 @@ acquired!"
 "delay" "1"
 "_tb_group" "50"
 }
-// entity 504
+// entity 503
 {
 "classname" "light"
 "origin" "-1256 -232 -184"
 "wait" "0.1"
 "light" "55"
 }
-// entity 505
+// entity 504
 {
 "classname" "light"
 "origin" "-1000 -280 -176"
 "wait" "0.1"
 "light" "40"
 }
-// entity 506
+// entity 505
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -18934,7 +18917,7 @@ acquired!"
 "_tb_linked_group_id" "{4fa491b3-67d9-4aff-adf3-14ee25951539}"
 "_tb_transformation" "6.123233995736766e-17 1 0 -776 -1 6.123233995736766e-17 0 -568 0 0 1 192 0 0 0 1"
 }
-// entity 507
+// entity 506
 {
 "classname" "func_detail"
 "_tb_group" "51"
@@ -18948,7 +18931,7 @@ acquired!"
 ( -1228 -888 -96 ) ( -1228 -852 -108 ) ( -1228 -888 -108 ) kh_lite1b2 [ 3.5687342618033625e-24 -5.828185341745969e-08 1.3333333333333321 0 ] [ -8.16431199431568e-17 1.3333333333333321 5.828185341745969e-08 -32 ] 270 1 1
 }
 }
-// entity 508
+// entity 507
 {
 "classname" "light"
 "origin" "-1240 -864 -106"
@@ -18956,7 +18939,7 @@ acquired!"
 "light" "325"
 "_tb_group" "51"
 }
-// entity 509
+// entity 508
 {
 "classname" "light"
 "origin" "-1240 -870 -106"
@@ -18967,28 +18950,28 @@ acquired!"
 "delay" "1"
 "_tb_group" "51"
 }
-// entity 510
+// entity 509
 {
 "classname" "light"
 "origin" "-1224 -680 -184"
 "wait" "0.1"
 "light" "55"
 }
-// entity 511
+// entity 510
 {
 "classname" "light"
 "origin" "-968 -632 -176"
 "wait" "0.1"
 "light" "40"
 }
-// entity 512
+// entity 511
 {
 "classname" "light"
 "origin" "-1256 -1152 292"
 "wait" "0.5"
 "light" "300"
 }
-// entity 513
+// entity 512
 {
 "classname" "light"
 "origin" "-1244 -1152 292"
@@ -18998,14 +18981,14 @@ acquired!"
 "wait" "0.5"
 "delay" "1"
 }
-// entity 514
+// entity 513
 {
 "classname" "light"
 "origin" "-1256 -1680 292"
 "wait" "0.5"
 "light" "300"
 }
-// entity 515
+// entity 514
 {
 "classname" "light"
 "origin" "-1244 -1680 292"
@@ -19015,7 +18998,7 @@ acquired!"
 "wait" "0.5"
 "delay" "1"
 }
-// entity 516
+// entity 515
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -19028,7 +19011,7 @@ acquired!"
 ( -1408 -1664 304 ) ( -1408 -1712 288 ) ( -1408 -1712 304 ) bltrim5 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 517
+// entity 516
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -19041,7 +19024,7 @@ acquired!"
 ( -1072 -1664 304 ) ( -1072 -1712 288 ) ( -1072 -1712 304 ) bltrim5 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 518
+// entity 517
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19058,7 +19041,7 @@ acquired!"
 ( 668 -1152.75 157 ) ( 668 -1157.75 147 ) ( 668 -1157.75 157 ) kh_lite02 [ 1.9594348786357655e-16 1.6000000000000003 0 -7.5999756 ] [ 0 0 -1.6000000000000003 19.200012 ] 0 1 1
 }
 }
-// entity 519
+// entity 518
 {
 "classname" "light"
 "origin" "660 -1164 160"
@@ -19066,7 +19049,7 @@ acquired!"
 "delay" "5"
 "_tb_group" "52"
 }
-// entity 520
+// entity 519
 {
 "classname" "light"
 "origin" "-844 -1204 224"
@@ -19074,7 +19057,7 @@ acquired!"
 "delay" "1"
 "wait" "0.7"
 }
-// entity 521
+// entity 520
 {
 "classname" "light"
 "origin" "-988 -1020 224"
@@ -19082,7 +19065,7 @@ acquired!"
 "delay" "1"
 "wait" "0.7"
 }
-// entity 522
+// entity 521
 {
 "classname" "light"
 "origin" "-1488 -1020 224"
@@ -19090,7 +19073,7 @@ acquired!"
 "delay" "1"
 "wait" "0.7"
 }
-// entity 523
+// entity 522
 {
 "classname" "light"
 "origin" "-1620 -1696 224"
@@ -19098,7 +19081,7 @@ acquired!"
 "delay" "1"
 "wait" "0.7"
 }
-// entity 524
+// entity 523
 {
 "classname" "light"
 "origin" "-1620 -1184 224"
@@ -19106,7 +19089,7 @@ acquired!"
 "delay" "1"
 "wait" "0.7"
 }
-// entity 525
+// entity 524
 {
 "classname" "light"
 "origin" "-844 -1732 224"
@@ -19114,7 +19097,7 @@ acquired!"
 "delay" "1"
 "wait" "0.7"
 }
-// entity 526
+// entity 525
 {
 "classname" "func_detail_illusionary"
 // brush 0
@@ -19127,7 +19110,7 @@ acquired!"
 ( -1732 -1376 284 ) ( -1732 -1390 256 ) ( -1732 -1390 284 ) o_light04b [ 0 1.142857142857143 0 40.57141 ] [ 0 0 -1.142857142857143 4.5714417 ] 0 1 1
 }
 }
-// entity 527
+// entity 526
 {
 "classname" "light"
 "origin" "-1764 -1396 272"
@@ -19136,12 +19119,12 @@ acquired!"
 "style" "10"
 "wait" "2"
 }
-// entity 528
+// entity 527
 {
 "classname" "light"
 "origin" "-1424 -2044 178.5"
 }
-// entity 529
+// entity 528
 {
 "classname" "light"
 "origin" "-1423.5 -2046 176"
@@ -19149,12 +19132,12 @@ acquired!"
 "_softangle" "30"
 "angle" "60"
 }
-// entity 530
+// entity 529
 {
 "classname" "light"
 "origin" "-1232 -2044 178.5"
 }
-// entity 531
+// entity 530
 {
 "classname" "light"
 "origin" "-1231.5 -2046 176"
@@ -19162,14 +19145,14 @@ acquired!"
 "_softangle" "30"
 "angle" "60"
 }
-// entity 532
+// entity 531
 {
 "classname" "light"
 "origin" "-1118 -2044 178.5"
 "wait" "1.5"
 "delay" "5"
 }
-// entity 533
+// entity 532
 {
 "classname" "light"
 "origin" "-1117.5 -2046 176"
@@ -19180,14 +19163,14 @@ acquired!"
 "delay" "5"
 "style" "10"
 }
-// entity 534
+// entity 533
 {
 "classname" "light"
 "origin" "-1624 -2152 104"
 "wait" "0.1"
 "light" "70"
 }
-// entity 535
+// entity 534
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19196,7 +19179,7 @@ acquired!"
 "_tb_linked_group_id" "{baaaefcb-8a31-4d02-be54-559980b55362}"
 "_tb_transformation" "6.123233995736766e-17 1 0 -488 -1 6.123233995736766e-17 0 -1768.0000000000002 0 0 1 208 0 0 0 1"
 }
-// entity 536
+// entity 535
 {
 "classname" "func_detail"
 "_tb_group" "54"
@@ -19210,7 +19193,7 @@ acquired!"
 ( -940 -2088 -80 ) ( -940 -2052 -92 ) ( -940 -2088 -92 ) kh_lite1b2 [ 3.5687342618033625e-24 -5.828185341745969e-08 1.3333333333333321 -21.333328 ] [ -8.16431199431568e-17 1.3333333333333321 5.828185341745969e-08 32 ] 270 1 1
 }
 }
-// entity 537
+// entity 536
 {
 "classname" "light"
 "origin" "-952 -2064 -90"
@@ -19218,7 +19201,7 @@ acquired!"
 "light" "325"
 "_tb_group" "54"
 }
-// entity 538
+// entity 537
 {
 "classname" "light"
 "origin" "-952 -2070 -90"
@@ -19229,7 +19212,7 @@ acquired!"
 "delay" "1"
 "_tb_group" "54"
 }
-// entity 539
+// entity 538
 {
 "classname" "func_detail"
 // brush 0
@@ -19242,7 +19225,7 @@ acquired!"
 ( -1332 -2080 16 ) ( -1332 -2044 4 ) ( -1332 -2080 4 ) kh_lite1b2 [ 3.5687342618033625e-24 -5.828185341745969e-08 1.3333333333333321 -21.33333 ] [ -8.16431199431568e-17 1.3333333333333321 5.828185341745969e-08 -42.666748 ] 270 1 1
 }
 }
-// entity 540
+// entity 539
 {
 "classname" "light"
 "origin" "-1344 -2056 6"
@@ -19250,7 +19233,7 @@ acquired!"
 "light" "325"
 "wait" "0.8"
 }
-// entity 541
+// entity 540
 {
 "classname" "light"
 "origin" "-1344 -2062 6"
@@ -19261,7 +19244,7 @@ acquired!"
 "delay" "1"
 "wait" "0.5"
 }
-// entity 542
+// entity 541
 {
 "classname" "func_detail"
 // brush 0
@@ -19274,7 +19257,7 @@ acquired!"
 ( -1512 -2080 16 ) ( -1512 -2044 4 ) ( -1512 -2080 4 ) kh_lite1b2 [ 3.5687342618033625e-24 -5.828185341745969e-08 1.3333333333333321 -21.33333 ] [ -8.16431199431568e-17 1.3333333333333321 5.828185341745969e-08 -42.666748 ] 270 1 1
 }
 }
-// entity 543
+// entity 542
 {
 "classname" "light"
 "origin" "-1524 -2056 6"
@@ -19282,7 +19265,7 @@ acquired!"
 "light" "325"
 "wait" "0.8"
 }
-// entity 544
+// entity 543
 {
 "classname" "light"
 "origin" "-1524 -2062 6"
@@ -19293,27 +19276,27 @@ acquired!"
 "delay" "1"
 "wait" "0.5"
 }
-// entity 545
+// entity 544
 {
 "classname" "light_torch_small_walltorch"
 "origin" "-1116 -1924 -188"
 "wait" "1.7"
 }
-// entity 546
+// entity 545
 {
 "classname" "light"
 "origin" "-1096 -2152 -184"
 "wait" "0.1"
 "light" "45"
 }
-// entity 547
+// entity 546
 {
 "classname" "light"
 "origin" "-904 -1944 -184"
 "wait" "0.1"
 "light" "60"
 }
-// entity 548
+// entity 547
 {
 "classname" "trigger_teleport"
 "targetname" "ttsoftlock"
@@ -19330,21 +19313,21 @@ acquired!"
 ( -1200 -2224 24 ) ( -1200 -2112 24 ) ( -1200 -2112 0 ) trigger [ 0 0 1.0000000000000002 16 ] [ 0 -1.0000000000000002 0 16 ] 0 1 1
 }
 }
-// entity 549
+// entity 548
 {
 "classname" "target_lock"
 "origin" "-1336 -2072 88"
 "target" "ttsoftlock"
 "targetname" "ttsoftlocktl"
 }
-// entity 550
+// entity 549
 {
 "classname" "info_teleport_destination"
 "origin" "-1584 -1928 96"
 "angle" "270"
 "targetname" "ttsoftlockend"
 }
-// entity 551
+// entity 550
 {
 "classname" "light"
 "origin" "-1732 -2136 -172"
@@ -19352,7 +19335,7 @@ acquired!"
 "spawnflags" "1"
 "wait" "1.5"
 }
-// entity 552
+// entity 551
 {
 "classname" "light"
 "origin" "-1724 -2136 -172"
@@ -19362,7 +19345,7 @@ acquired!"
 "angle" "60"
 "_softangle" "30"
 }
-// entity 553
+// entity 552
 {
 "classname" "func_detail"
 // brush 0
@@ -19375,14 +19358,14 @@ acquired!"
 ( -944 -2032 96 ) ( -944 -2080 80 ) ( -944 -2080 96 ) o_light01 [ 0 0.9999999999999992 4.3711390063094775e-08 -16 ] [ 0 4.3711390063094775e-08 -0.9999999999999992 12 ] 270 1 1
 }
 }
-// entity 554
+// entity 553
 {
 "classname" "light"
 "origin" "-952 -2064 84"
 "spawnflags" "1"
 "targetname" "l04"
 }
-// entity 555
+// entity 554
 {
 "classname" "func_detail"
 // brush 0
@@ -19395,13 +19378,13 @@ acquired!"
 ( -1232 264 32 ) ( -1232 136 16 ) ( -1232 136 32 ) o_light03 [ 0 0 -1.0000000000000002 28 ] [ 0 -1.0000000000000002 0 8 ] 0 1 1
 }
 }
-// entity 556
+// entity 555
 {
 "classname" "light"
 "origin" "-1240 192 20"
 "wait" "0.65"
 }
-// entity 557
+// entity 556
 {
 "classname" "light"
 "origin" "-1252 192 20"
@@ -19410,21 +19393,21 @@ acquired!"
 "angle" "100"
 "wait" "0.65"
 }
-// entity 558
+// entity 557
 {
 "classname" "light"
 "origin" "-1152 496 -524"
 "style" "10"
 "wait" "1.2"
 }
-// entity 559
+// entity 558
 {
 "classname" "light"
 "origin" "-1080 472 -376"
 "wait" "0.1"
 "light" "60"
 }
-// entity 560
+// entity 559
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19432,14 +19415,14 @@ acquired!"
 "_tb_id" "55"
 "_tb_linked_group_id" "{30a27675-dcf1-4643-82ba-65011908d50e}"
 }
-// entity 561
+// entity 560
 {
 "classname" "light"
 "origin" "-1008 480 -144"
 "light" "300"
 "_tb_group" "55"
 }
-// entity 562
+// entity 561
 {
 "classname" "light"
 "origin" "-1008 484 -144"
@@ -19449,7 +19432,7 @@ acquired!"
 "delay" "1"
 "_tb_group" "55"
 }
-// entity 563
+// entity 562
 {
 "classname" "func_detail"
 "_tb_group" "55"
@@ -19463,7 +19446,7 @@ acquired!"
 ( -992 496 -128 ) ( -992 448 -160 ) ( -992 448 -128 ) o_light04 [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 564
+// entity 563
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19472,14 +19455,14 @@ acquired!"
 "_tb_linked_group_id" "{4b5b3d09-4d45-47ca-acf4-42caecf09f89}"
 "_tb_transformation" "6.123233995736766e-17 1 0 -1824 -1 6.123233995736766e-17 0 -640 0 0 1 0 0 0 0 1"
 }
-// entity 565
+// entity 564
 {
 "classname" "light"
 "origin" "-1344 368 -144"
 "light" "300"
 "_tb_group" "56"
 }
-// entity 566
+// entity 565
 {
 "classname" "light"
 "origin" "-1340 368 -144"
@@ -19489,7 +19472,7 @@ acquired!"
 "delay" "1"
 "_tb_group" "56"
 }
-// entity 567
+// entity 566
 {
 "classname" "func_detail"
 "_tb_group" "56"
@@ -19503,7 +19486,7 @@ acquired!"
 ( -1312 352 -128 ) ( -1312 368 -160 ) ( -1312 352 -160 ) o_light04 [ -6.123233995736767e-17 1.0000000000000002 0 -36 ] [ 0 0 -1.0000000000000002 0 ] 0 1 1
 }
 }
-// entity 568
+// entity 567
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19512,14 +19495,14 @@ acquired!"
 "_tb_linked_group_id" "{66acc327-446c-472f-929a-95a4022e320d}"
 "_tb_transformation" "1 0 0 0 0 1 0 0 0 0 1 144 0 0 0 1"
 }
-// entity 569
+// entity 568
 {
 "classname" "light"
 "origin" "-1008 480 0"
 "light" "300"
 "_tb_group" "57"
 }
-// entity 570
+// entity 569
 {
 "classname" "light"
 "origin" "-1008 484 0"
@@ -19529,7 +19512,7 @@ acquired!"
 "delay" "1"
 "_tb_group" "57"
 }
-// entity 571
+// entity 570
 {
 "classname" "func_detail"
 "_tb_group" "57"
@@ -19543,7 +19526,7 @@ acquired!"
 ( -992 496 16 ) ( -992 448 -16 ) ( -992 448 16 ) o_light04 [ 0 1 0 0 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 572
+// entity 571
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19552,14 +19535,14 @@ acquired!"
 "_tb_linked_group_id" "{ce358f81-3402-42b2-9630-e1a06020950a}"
 "_tb_transformation" "6.123233995736766e-17 1 0 -1824 -1 6.123233995736766e-17 0 -640 0 0 1 144 0 0 0 1"
 }
-// entity 573
+// entity 572
 {
 "classname" "light"
 "origin" "-1344 368 0"
 "light" "300"
 "_tb_group" "58"
 }
-// entity 574
+// entity 573
 {
 "classname" "light"
 "origin" "-1340 368 0"
@@ -19569,7 +19552,7 @@ acquired!"
 "delay" "1"
 "_tb_group" "58"
 }
-// entity 575
+// entity 574
 {
 "classname" "func_detail"
 "_tb_group" "58"
@@ -19583,83 +19566,83 @@ acquired!"
 ( -1312 352 16 ) ( -1312 368 -16 ) ( -1312 352 -16 ) o_light04 [ -6.123233995736767e-17 1.0000000000000002 0 -36 ] [ 0 0 -1.0000000000000002 16 ] 0 1 1
 }
 }
-// entity 576
+// entity 575
 {
 "classname" "light"
 "origin" "-1080 584 -24"
 "wait" "0.1"
 "light" "55"
 }
-// entity 577
+// entity 576
 {
 "classname" "light"
 "origin" "-1080 584 -184"
 "wait" "0.1"
 "light" "55"
 }
-// entity 578
+// entity 577
 {
 "classname" "light"
 "origin" "-1464 600 -72"
 "wait" "0.1"
 "light" "50"
 }
-// entity 579
+// entity 578
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1396 -748 -404"
 }
-// entity 580
+// entity 579
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1404 -196 -404"
 }
-// entity 581
+// entity 580
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2044 -196 -404"
 }
-// entity 582
+// entity 581
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2036 -748 -404"
 }
-// entity 583
+// entity 582
 {
 "classname" "light_candle"
 "origin" "1624 -376 -444"
 }
-// entity 584
+// entity 583
 {
 "classname" "light_candle"
 "origin" "1800 -376 -444"
 }
-// entity 585
+// entity 584
 {
 "classname" "light_candle"
 "origin" "1800 -552 -444"
 }
-// entity 586
+// entity 585
 {
 "classname" "light_candle"
 "origin" "1624 -552 -444"
 }
-// entity 587
+// entity 586
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2036 -748 -164"
 }
-// entity 588
+// entity 587
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1396 -748 -164"
 }
-// entity 589
+// entity 588
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1404 -196 -164"
 }
-// entity 590
+// entity 589
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19668,7 +19651,7 @@ acquired!"
 "_tb_linked_group_id" "{670bed3a-088d-4b45-a304-b7f29c547622}"
 "_tb_transformation" "1 0 0 -112 0 1 0 336 0 0 1 144 0 0 0 1"
 }
-// entity 591
+// entity 590
 {
 "classname" "func_detail"
 "_tb_group" "59"
@@ -19711,13 +19694,13 @@ acquired!"
 ( 1192 -616 -88 ) ( 1192 -615 -88 ) ( 1192 -616 -89 ) metalwiz [ 6.123234263391829e-17 0.999999999999999 4.3711390246791796e-08 -55.99994 ] [ -6.12323372808169e-17 4.3711390246791796e-08 -0.999999999999999 8 ] 180 1 1
 }
 }
-// entity 592
+// entity 591
 {
 "classname" "light"
 "origin" "1208 -664 -64"
 "wait" "1.2"
 }
-// entity 593
+// entity 592
 {
 "classname" "light"
 "origin" "1208 -656 -64"
@@ -19726,7 +19709,7 @@ acquired!"
 "angle" "100"
 "wait" "1.2"
 }
-// entity 594
+// entity 593
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19735,7 +19718,7 @@ acquired!"
 "_tb_linked_group_id" "{f4ed74cb-2a75-4af8-81c8-4b7bac4b90ab}"
 "_tb_transformation" "1 0 0 -112 0 1 0 720 0 0 1 144 0 0 0 1"
 }
-// entity 595
+// entity 594
 {
 "classname" "func_detail"
 "_tb_group" "60"
@@ -19778,13 +19761,13 @@ acquired!"
 ( 1192 -232 -88 ) ( 1192 -231 -88 ) ( 1192 -232 -89 ) metalwiz [ 6.123234263391829e-17 0.999999999999999 4.3711390246791796e-08 8.000061 ] [ -6.12323372808169e-17 4.3711390246791796e-08 -0.999999999999999 7.999977 ] 180 1 1
 }
 }
-// entity 596
+// entity 595
 {
 "classname" "light"
 "origin" "1208 -280 -64"
 "wait" "1.2"
 }
-// entity 597
+// entity 596
 {
 "classname" "light"
 "origin" "1208 -272 -64"
@@ -19793,7 +19776,7 @@ acquired!"
 "angle" "100"
 "wait" "1.2"
 }
-// entity 598
+// entity 597
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19802,7 +19785,7 @@ acquired!"
 "_tb_linked_group_id" "{50bbd5e0-e279-43f6-bc54-e96cc42b4a28}"
 "_tb_transformation" "-0.8660254037844365 0.5000000000000037 0 3808.225329765184 -0.5000000000000037 -0.8660254037844365 0 -459.09720055415664 0 0 1 -192.00000000000003 0 0 0 1"
 }
-// entity 599
+// entity 598
 {
 "classname" "func_detail"
 "_tb_group" "61"
@@ -19845,13 +19828,13 @@ acquired!"
 ( 2205 -258 -448 ) ( 2205 -258 -408 ) ( 2201 -251 -408 ) metalwiz [ 0.49230769230769217 -0.8615384615383502 -4.371135618327492e-08 -19.815395 ] [ 2.1519503288996608e-08 -3.765901541710696e-08 0.999999999999999 7.9999094 ] 0.2551187 1 1
 }
 }
-// entity 600
+// entity 599
 {
 "classname" "light"
 "origin" "2165.07 -253.072 -400"
 "wait" "1.2"
 }
-// entity 601
+// entity 600
 {
 "classname" "light"
 "origin" "2170 -259.465 -396"
@@ -19860,34 +19843,34 @@ acquired!"
 "angle" "100"
 "wait" "1.2"
 }
-// entity 602
+// entity 601
 {
 "classname" "light_torch_small_walltorch"
 "origin" "2044 -204 -164"
 }
-// entity 603
+// entity 602
 {
 "classname" "light"
 "origin" "2220 -472 -248"
 "wait" "0.1"
 "light" "65"
 }
-// entity 604
+// entity 603
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1788 -468 76"
 }
-// entity 605
+// entity 604
 {
 "classname" "light_candle"
 "origin" "1832 -484 -144"
 }
-// entity 606
+// entity 605
 {
 "classname" "light_candle"
 "origin" "1528 -492 -288"
 }
-// entity 607
+// entity 606
 {
 "classname" "light"
 "origin" "1448 472 -392"
@@ -19895,13 +19878,13 @@ acquired!"
 "wait" "2"
 "delay" "5"
 }
-// entity 608
+// entity 607
 {
 "classname" "info_null"
 "origin" "1452 444 -396"
 "message" "Surface light for kh lite light"
 }
-// entity 609
+// entity 608
 {
 "classname" "light"
 "origin" "1720 424 -340"
@@ -19909,7 +19892,7 @@ acquired!"
 "_color" "193 36 8"
 "delay" "1"
 }
-// entity 610
+// entity 609
 {
 "classname" "light"
 "origin" "1720 424 -484"
@@ -19917,43 +19900,43 @@ acquired!"
 "_color" "193 36 8"
 "delay" "1"
 }
-// entity 611
+// entity 610
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1636 -52 -436"
 }
-// entity 612
+// entity 611
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1756 -852 -420"
 }
-// entity 613
+// entity 612
 {
 "classname" "light"
 "origin" "1880 -1272 -312"
 "wait" "0.1"
 "light" "100"
 }
-// entity 614
+// entity 613
 {
 "classname" "light"
 "origin" "1576 -1176 -376"
 "wait" "0.1"
 "light" "75"
 }
-// entity 615
+// entity 614
 {
 "classname" "light_torch_small_walltorch"
 "origin" "1660 -1272 -404"
 }
-// entity 616
+// entity 615
 {
 "classname" "light"
 "origin" "1720 -1160 -280"
 "wait" "0.1"
 "light" "68"
 }
-// entity 617
+// entity 616
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19961,35 +19944,35 @@ acquired!"
 "_tb_id" "63"
 "_tb_linked_group_id" "{934860ad-66eb-46bc-9bf3-790bc80b8eab}"
 }
-// entity 618
+// entity 617
 {
 "classname" "light_candle"
 "origin" "1844 -1548 -472"
 "wait" "2.7"
 "_tb_group" "63"
 }
-// entity 619
+// entity 618
 {
 "classname" "light_candle"
 "origin" "2068 -1564 -472"
 "wait" "2.7"
 "_tb_group" "63"
 }
-// entity 620
+// entity 619
 {
 "classname" "light_candle"
 "origin" "2052 -1388 -472"
 "wait" "2.7"
 "_tb_group" "63"
 }
-// entity 621
+// entity 620
 {
 "classname" "light"
 "origin" "1784 -1064 -424"
 "wait" "0.1"
 "light" "45"
 }
-// entity 622
+// entity 621
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -19998,7 +19981,7 @@ acquired!"
 "_tb_linked_group_id" "{6d2897c9-5e0a-4352-8464-41fea314d46d}"
 "_tb_transformation" "-0.8660254037844365 0.5000000000000037 0 3824.225329765184 0.5000000000000037 0.8660254037844365 0 -500.90279944584336 0 0 1 -192.00000000000003 0 0 0 1"
 }
-// entity 623
+// entity 622
 {
 "classname" "func_detail"
 "_tb_group" "64"
@@ -20041,7 +20024,7 @@ acquired!"
 ( 2221 -702 -448 ) ( 2217 -709 -408 ) ( 2221 -702 -408 ) metalwiz [ 0.49230769230769217 0.8615384615383502 -4.371135618327492e-08 31.384583 ] [ 2.1519503288996608e-08 3.765901541710696e-08 0.999999999999999 7.999939 ] 180.25511 1 1
 }
 }
-// entity 624
+// entity 623
 {
 "classname" "light"
 "origin" "2186 -700.535 -396"
@@ -20050,18 +20033,18 @@ acquired!"
 "angle" "100"
 "wait" "1.2"
 }
-// entity 625
+// entity 624
 {
 "classname" "light"
 "origin" "2181.07 -706.928 -400"
 "wait" "1.2"
 }
-// entity 626
+// entity 625
 {
 "classname" "light"
 "origin" "2528 -488 -304"
 }
-// entity 627
+// entity 626
 {
 "classname" "func_detail"
 // brush 0
@@ -20074,7 +20057,7 @@ acquired!"
 ( 2544 -464 -280 ) ( 2544 -528 -296 ) ( 2544 -528 -280 ) o_light04_1 [ 0 0 -1.0000000000000002 -2 ] [ 0 -1.0000000000000002 0 -16 ] 0 1 1
 }
 }
-// entity 628
+// entity 627
 {
 "classname" "light"
 "origin" "2528 -480 -304"
@@ -20082,21 +20065,21 @@ acquired!"
 "_softangle" "20"
 "angle" "50"
 }
-// entity 629
+// entity 628
 {
 "classname" "light"
 "origin" "2312 -472 -392"
 "wait" "0.1"
 "light" "75"
 }
-// entity 630
+// entity 629
 {
 "classname" "light"
 "origin" "2744 -472 -392"
 "wait" "0.1"
 "light" "75"
 }
-// entity 631
+// entity 630
 {
 "classname" "light"
 "origin" "3088 -472 -320"
@@ -20104,7 +20087,7 @@ acquired!"
 "_softangle" "20"
 "angle" "50"
 }
-// entity 632
+// entity 631
 {
 "classname" "func_detail"
 // brush 0
@@ -20117,12 +20100,12 @@ acquired!"
 ( 3104 -456 -296 ) ( 3104 -520 -312 ) ( 3104 -520 -296 ) o_light04_1 [ 0 0 -1.0000000000000002 -18 ] [ 0 -1.0000000000000002 0 -8 ] 0 1 1
 }
 }
-// entity 633
+// entity 632
 {
 "classname" "light"
 "origin" "3088 -480 -320"
 }
-// entity 634
+// entity 633
 {
 "classname" "func_detail"
 // brush 0
@@ -20135,7 +20118,7 @@ acquired!"
 ( 3344 -460 -296 ) ( 3344 -524 -312 ) ( 3344 -524 -296 ) o_light04_1 [ 0 0 -1.0000000000000002 -18 ] [ 0 -1.0000000000000002 0 -12 ] 0 1 1
 }
 }
-// entity 635
+// entity 634
 {
 "classname" "light"
 "origin" "3328 -476 -320"
@@ -20143,12 +20126,12 @@ acquired!"
 "_softangle" "20"
 "angle" "50"
 }
-// entity 636
+// entity 635
 {
 "classname" "light"
 "origin" "3328 -484 -320"
 }
-// entity 637
+// entity 636
 {
 "classname" "light"
 "origin" "3616 -476 -327"
@@ -20156,7 +20139,7 @@ acquired!"
 "_softangle" "20"
 "angle" "50"
 }
-// entity 638
+// entity 637
 {
 "classname" "func_detail"
 // brush 0
@@ -20169,17 +20152,17 @@ acquired!"
 ( 3632 -492 -311 ) ( 3632 -460 -311 ) ( 3632 -460 -314 ) o_light04_1 [ 0 0 -0.6666666666666667 14.666664 ] [ 0 -1.0000000000000002 0 -12 ] 0 1 1
 }
 }
-// entity 639
+// entity 638
 {
 "classname" "light"
 "origin" "3616 -484 -327"
 }
-// entity 640
+// entity 639
 {
 "classname" "light_torch_small_walltorch"
 "origin" "3948 -404 -532"
 }
-// entity 641
+// entity 640
 {
 "classname" "func_detail"
 // brush 0
@@ -20192,7 +20175,7 @@ acquired!"
 ( 3896 -739 -493 ) ( 3896 -738 -497 ) ( 3896 -770 -508 ) o_light04_1 [ 1.1102230246251565e-16 0.31686521822037705 -0.9217897257323806 -0.2831726 ] [ -4.321543123353422e-14 -0.984848088139481 -0.2240406261544636 23.753479 ] 6.4740825 1 1
 }
 }
-// entity 642
+// entity 641
 {
 "classname" "light"
 "origin" "3884 -760 -519"
@@ -20200,12 +20183,12 @@ acquired!"
 "_softangle" "20"
 "angle" "50"
 }
-// entity 643
+// entity 642
 {
 "classname" "light"
 "origin" "3876 -760 -519"
 }
-// entity 644
+// entity 643
 {
 "classname" "func_detail"
 // brush 0
@@ -20218,14 +20201,14 @@ acquired!"
 ( 3668 -1040 -592 ) ( 3668 -1104 -624 ) ( 3668 -1104 -592 ) o_light04ad4 [ 0 1 0 16 ] [ 0 0 -1 -16 ] 0 1 1
 }
 }
-// entity 645
+// entity 644
 {
 "classname" "light"
 "origin" "3688 -1072 -608"
 "delay" "5"
 "light" "400"
 }
-// entity 646
+// entity 645
 {
 "classname" "func_detail"
 // brush 0
@@ -20238,14 +20221,14 @@ acquired!"
 ( 4096 -1120 -592 ) ( 4096 -1056 -592 ) ( 4096 -1056 -624 ) o_light04ad4 [ 0 -1 0 -32 ] [ 0 0 -1 -16 ] 0 1 1
 }
 }
-// entity 647
+// entity 646
 {
 "classname" "light"
 "origin" "4072 -1088 -608"
 "delay" "5"
 "light" "400"
 }
-// entity 648
+// entity 647
 {
 "classname" "light"
 "origin" "3912 -3256 -672"
@@ -20254,7 +20237,7 @@ acquired!"
 "targetname" "l05"
 "spawnflags" "1"
 }
-// entity 649
+// entity 648
 {
 "classname" "light"
 "origin" "3864 -2696 -664"
@@ -20264,13 +20247,13 @@ acquired!"
 "light" "227"
 "wait" "2.2"
 }
-// entity 650
+// entity 649
 {
 "classname" "info_null"
 "origin" "3844 -2692 -668"
 "message" "Surface light from above."
 }
-// entity 651
+// entity 650
 {
 "classname" "func_detail"
 // brush 0
@@ -20283,7 +20266,7 @@ acquired!"
 ( 3616 -1584 -596 ) ( 3616 -1616 -612 ) ( 3616 -1616 -596 ) kh_mosslite1a2 [ 0 0 1.0000000000000002 -8 ] [ -1.2246467991473535e-16 1.0000000000000002 0 -16 ] 0 1 1
 }
 }
-// entity 652
+// entity 651
 {
 "classname" "light"
 "origin" "3600 -1596 -612"
@@ -20294,7 +20277,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 653
+// entity 652
 {
 "classname" "light"
 "origin" "3600 -1604 -612"
@@ -20303,7 +20286,7 @@ acquired!"
 "delay" "1"
 "light" "250"
 }
-// entity 654
+// entity 653
 {
 "classname" "func_detail"
 // brush 0
@@ -20316,7 +20299,7 @@ acquired!"
 ( 4152 -1584 -596 ) ( 4152 -1616 -612 ) ( 4152 -1616 -596 ) kh_mosslite1a2 [ 0 0 1.0000000000000002 -8 ] [ -1.2246467991473535e-16 1.0000000000000002 0 -16 ] 0 1 1
 }
 }
-// entity 655
+// entity 654
 {
 "classname" "light"
 "origin" "4136 -1604 -612"
@@ -20325,7 +20308,7 @@ acquired!"
 "delay" "1"
 "light" "250"
 }
-// entity 656
+// entity 655
 {
 "classname" "light"
 "origin" "4136 -1596 -612"
@@ -20336,7 +20319,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 657
+// entity 656
 {
 "classname" "light"
 "origin" "4144 -1964 -612"
@@ -20347,7 +20330,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 658
+// entity 657
 {
 "classname" "func_detail"
 // brush 0
@@ -20360,7 +20343,7 @@ acquired!"
 ( 4160 -1952 -596 ) ( 4160 -1984 -612 ) ( 4160 -1984 -596 ) kh_mosslite1a2 [ 0 0 1.0000000000000002 -8 ] [ -1.2246467991473535e-16 1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 659
+// entity 658
 {
 "classname" "light"
 "origin" "4144 -1972 -612"
@@ -20369,7 +20352,7 @@ acquired!"
 "delay" "1"
 "light" "250"
 }
-// entity 660
+// entity 659
 {
 "classname" "light"
 "origin" "3600 -1956 -612"
@@ -20378,7 +20361,7 @@ acquired!"
 "delay" "1"
 "light" "250"
 }
-// entity 661
+// entity 660
 {
 "classname" "light"
 "origin" "3600 -1948 -612"
@@ -20389,7 +20372,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 662
+// entity 661
 {
 "classname" "func_detail"
 // brush 0
@@ -20402,14 +20385,14 @@ acquired!"
 ( 3616 -1936 -596 ) ( 3616 -1968 -612 ) ( 3616 -1968 -596 ) kh_mosslite1a2 [ 0 0 1.0000000000000002 -8 ] [ -1.2246467991473535e-16 1.0000000000000002 0 16 ] 0 1 1
 }
 }
-// entity 663
+// entity 662
 {
 "classname" "info_player_start_test"
 "origin" "3872 -944 -712"
 "angle" "270"
 "spawnflags" "0"
 }
-// entity 664
+// entity 663
 {
 "classname" "light"
 "origin" "4144 -2316 -612"
@@ -20420,7 +20403,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 665
+// entity 664
 {
 "classname" "light"
 "origin" "4144 -2324 -612"
@@ -20429,7 +20412,7 @@ acquired!"
 "delay" "1"
 "light" "250"
 }
-// entity 666
+// entity 665
 {
 "classname" "func_detail"
 // brush 0
@@ -20442,7 +20425,7 @@ acquired!"
 ( 4164 -2304 -596 ) ( 4164 -2336 -612 ) ( 4164 -2336 -596 ) kh_mosslite1a2 [ 0 0 1.0000000000000002 -8 ] [ -1.2246467991473535e-16 1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 667
+// entity 666
 {
 "classname" "light"
 "origin" "3600 -2316 -612"
@@ -20453,7 +20436,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 668
+// entity 667
 {
 "classname" "light"
 "origin" "3600 -2324 -612"
@@ -20462,7 +20445,7 @@ acquired!"
 "delay" "1"
 "light" "250"
 }
-// entity 669
+// entity 668
 {
 "classname" "func_detail"
 // brush 0
@@ -20475,7 +20458,7 @@ acquired!"
 ( 3616 -2304 -596 ) ( 3616 -2336 -612 ) ( 3616 -2336 -596 ) kh_mosslite1a2 [ 0 0 1.0000000000000002 -8 ] [ -1.2246467991473535e-16 1.0000000000000002 0 0 ] 0 1 1
 }
 }
-// entity 670
+// entity 669
 {
 "classname" "func_detail"
 // brush 0
@@ -20488,7 +20471,7 @@ acquired!"
 ( 3624 -2672 -596 ) ( 3624 -2704 -612 ) ( 3624 -2704 -596 ) kh_mosslite1a2 [ 0 0 1.0000000000000002 -8 ] [ -1.2246467991473535e-16 1.0000000000000002 0 -16 ] 0 1 1
 }
 }
-// entity 671
+// entity 670
 {
 "classname" "light"
 "origin" "3608 -2692 -612"
@@ -20497,7 +20480,7 @@ acquired!"
 "delay" "1"
 "light" "250"
 }
-// entity 672
+// entity 671
 {
 "classname" "light"
 "origin" "3608 -2684 -612"
@@ -20508,7 +20491,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 673
+// entity 672
 {
 "classname" "light"
 "origin" "4136 -2684 -612"
@@ -20519,7 +20502,7 @@ acquired!"
 "angle" "60"
 "_softangle" "35"
 }
-// entity 674
+// entity 673
 {
 "classname" "light"
 "origin" "4136 -2692 -612"
@@ -20528,7 +20511,7 @@ acquired!"
 "delay" "1"
 "light" "250"
 }
-// entity 675
+// entity 674
 {
 "classname" "func_detail"
 // brush 0
@@ -20541,7 +20524,7 @@ acquired!"
 ( 4156 -2672 -596 ) ( 4156 -2704 -612 ) ( 4156 -2704 -596 ) kh_mosslite1a2 [ 0 0 1.0000000000000002 -8 ] [ -1.2246467991473535e-16 1.0000000000000002 0 -16 ] 0 1 1
 }
 }
-// entity 676
+// entity 675
 {
 "classname" "light"
 "origin" "3884 -2856 -616"
@@ -20553,7 +20536,7 @@ acquired!"
 "_softangle" "40"
 "light" "350"
 }
-// entity 677
+// entity 676
 {
 "classname" "light"
 "origin" "3876 -2856 -616"
@@ -20562,7 +20545,7 @@ acquired!"
 "delay" "1"
 "light" "350"
 }
-// entity 678
+// entity 677
 {
 "classname" "trigger_relay"
 "origin" "-1240 -2072 72"
@@ -20570,7 +20553,7 @@ acquired!"
 "target" "secretsquad05"
 "target2" "secretsquad05a"
 }
-// entity 679
+// entity 678
 {
 "classname" "trigger_monsterjump"
 "angle" "180"
@@ -20588,7 +20571,7 @@ acquired!"
 ( -1192 -2048 32 ) ( -1192 -2048 33 ) ( -1192 -2047 32 ) trigger [ 0 0 1.0000000000000002 -8 ] [ 0 -1.0000000000000002 0 -16 ] 0 1 1
 }
 }
-// entity 680
+// entity 679
 {
 "classname" "trigger_relay"
 "origin" "-1240 -2104 72"
@@ -20596,14 +20579,14 @@ acquired!"
 "target" "trigjump1a"
 "delay" "4"
 }
-// entity 681
+// entity 680
 {
 "classname" "target_lock"
 "origin" "-1200 -2104 72"
 "targetname" "trigjump1a"
 "target" "trigjump1"
 }
-// entity 682
+// entity 681
 {
 "classname" "func_group"
 "_minlight" "150"
@@ -20644,7 +20627,7 @@ acquired!"
 ( 1096 -432 -416 ) ( 1096 -400 -416 ) ( 1096 -400 -464 ) concrete1 [ 0 1.0000000000000002 0 -120 ] [ 0 0 -1.0000000000000002 -8 ] 0 1 1
 }
 }
-// entity 683
+// entity 682
 {
 "classname" "func_group"
 "_minlight" "200"
@@ -20694,7 +20677,7 @@ acquired!"
 ( 1104 -176 -352 ) ( 1104 -208 -400 ) ( 1104 -208 -352 ) floor_blue_c [ 0 1 0 0 ] [ 0 0 -1 56 ] 0 1 1
 }
 }
-// entity 684
+// entity 683
 {
 "classname" "func_group"
 "_minlight" "400"
@@ -20708,7 +20691,7 @@ acquired!"
 ( -1056 -564 -440 ) ( -1056 -340 -464 ) ( -1056 -564 -464 ) wall_blue_c [ 6.123233995736767e-17 -1.0000000000000002 0 20 ] [ 0 0 -1.0000000000000002 16 ] 0 1 1
 }
 }
-// entity 685
+// entity 684
 {
 "classname" "func_group"
 "_minlight" "400"
@@ -20740,7 +20723,7 @@ acquired!"
 ( -1056 -2224 -264 ) ( -1056 -2112 -264 ) ( -1056 -2112 -288 ) floor_blue_c [ 0 -1 0 -48 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 686
+// entity 685
 {
 "classname" "func_group"
 "_minlight" "80"
@@ -20781,7 +20764,7 @@ acquired!"
 ( 1104 -400 -416 ) ( 1104 -432 -464 ) ( 1104 -432 -416 ) floor_blue_c [ 0 1 0 32 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 687
+// entity 686
 {
 "classname" "func_group"
 "_minlight" "80"
@@ -20822,7 +20805,7 @@ acquired!"
 ( 1104 -336 -416 ) ( 1104 -368 -464 ) ( 1104 -368 -416 ) floor_blue_c [ 0 1 0 -32 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 688
+// entity 687
 {
 "classname" "func_detail"
 // brush 0
@@ -20853,7 +20836,7 @@ acquired!"
 ( -272 -544 -304 ) ( -272 -448 -304 ) ( -272 -448 -320 ) lipwave2 [ 0 -1 0 32 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 689
+// entity 688
 {
 "classname" "func_detail"
 // brush 0
@@ -20884,7 +20867,7 @@ acquired!"
 ( 432 -1627 -352 ) ( 432 -1574 -452 ) ( 432 -1784 -452 ) o_metal1_17 [ 0 1 0 -8 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 690
+// entity 689
 {
 "classname" "func_detail"
 // brush 0
@@ -20915,7 +20898,7 @@ acquired!"
 ( 1024 -1968 -16 ) ( 1024 -1968 -40 ) ( 1024 -2192 -40 ) kh_mosstrim4d [ 1.8369701987210297e-16 -1 0 16 ] [ 0 0 -1 -16 ] 0 1 1
 }
 }
-// entity 691
+// entity 690
 {
 "classname" "func_detail"
 // brush 0
@@ -20946,7 +20929,7 @@ acquired!"
 ( 928 -2224 -32 ) ( 928 -2112 -32 ) ( 928 -2112 -56 ) kh_mosstrim4d [ 1.2246467991473532e-16 -1 0 16 ] [ 0 0 -1 -32 ] 180 1 1
 }
 }
-// entity 692
+// entity 691
 {
 "classname" "func_detail"
 // brush 0
@@ -20977,7 +20960,7 @@ acquired!"
 ( 240 -1968 -16 ) ( 240 -1968 -40 ) ( 240 -2192 -40 ) kh_mosstrim4d [ -1.8369701987210297e-16 -1 0 16 ] [ 0 0 -1 -16 ] 0 1 1
 }
 }
-// entity 693
+// entity 692
 {
 "classname" "func_detail"
 // brush 0
@@ -21008,7 +20991,7 @@ acquired!"
 ( 928 -1024 -32 ) ( 928 -912 -32 ) ( 928 -912 -56 ) kh_mosstrim4d [ 0 -1 0 48 ] [ 0 0 -1 -32 ] 180 1 1
 }
 }
-// entity 694
+// entity 693
 {
 "classname" "func_detail"
 // brush 0
@@ -21039,7 +21022,7 @@ acquired!"
 ( 652 -992 -432 ) ( 652 -768 -456 ) ( 652 -992 -456 ) o_metal1_17adb [ -6.123233995736766e-17 1 0 -32 ] [ 0 0 -1 16 ] 0 1 1
 }
 }
-// entity 695
+// entity 694
 {
 "classname" "func_detail"
 // brush 0
@@ -21079,7 +21062,7 @@ acquired!"
 ( -1000 112 -440 ) ( -1000 336 -464 ) ( -1000 112 -464 ) o_metal3_4 [ 6.123233995736767e-17 -1.0000000000000002 0 56 ] [ 0 0 -1.0000000000000002 16 ] 0 1 1
 }
 }
-// entity 696
+// entity 695
 {
 "classname" "func_detail"
 // brush 0
@@ -21146,7 +21129,7 @@ acquired!"
 ( -1408 528 -200 ) ( -1408 528 -199 ) ( -1408 529 -200 ) o_metal3_33 [ -1.8369701987210297e-16 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 697
+// entity 696
 {
 "classname" "func_detail"
 // brush 0
@@ -21186,7 +21169,7 @@ acquired!"
 ( -1424 496 -200 ) ( -1424 495 -200 ) ( -1424 496 -199 ) o_metal3_33 [ -3.67394039744206e-16 1 0 16 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 698
+// entity 697
 {
 "classname" "func_detail"
 // brush 0
@@ -21210,7 +21193,7 @@ acquired!"
 ( -1280 -1728 -176 ) ( -1280 -1584 -176 ) ( -1280 -1584 -240 ) o_metal3_33 [ 0 -1 0 24 ] [ 0 0 -1 40 ] 0 1 1
 }
 }
-// entity 699
+// entity 698
 {
 "classname" "func_group"
 "_minlight" "100"
@@ -21224,7 +21207,7 @@ acquired!"
 ( 2192 -344 -432 ) ( 2192 -376 -480 ) ( 2192 -376 -432 ) brk-floor7 [ 0 1 0 -32 ] [ 0 0 -1 -24 ] 0 1 1
 }
 }
-// entity 700
+// entity 699
 {
 "classname" "func_group"
 "_minlight" "100"
@@ -21238,63 +21221,63 @@ acquired!"
 ( 2192 -344 -432 ) ( 2192 -376 -480 ) ( 2192 -376 -432 ) brk-floor7 [ 0 1 0 -32 ] [ 0 0 -1 -24 ] 0 1 1
 }
 }
-// entity 701
+// entity 700
 {
 "classname" "light"
 "origin" "1600 -464 -448"
 "wait" "0.1"
 "light" "70"
 }
-// entity 702
+// entity 701
 {
 "classname" "light"
 "origin" "1824 -464 -448"
 "wait" "0.1"
 "light" "70"
 }
-// entity 703
+// entity 702
 {
 "classname" "light"
 "origin" "2840 -472 -392"
 "wait" "0.1"
 "light" "90"
 }
-// entity 704
+// entity 703
 {
 "classname" "light"
 "origin" "1704 792 -452"
 "wait" "0.1"
 "light" "75"
 }
-// entity 705
+// entity 704
 {
 "classname" "light"
 "origin" "3880 -1224 -664"
 "wait" "0.1"
 "light" "85"
 }
-// entity 706
+// entity 705
 {
 "classname" "light"
 "origin" "1192 -472 -392"
 "light" "80"
 "wait" "0.1"
 }
-// entity 707
+// entity 706
 {
 "classname" "item_health"
 "origin" "224 -1232 0"
 "wait" "30"
 "spawnflags" "768"
 }
-// entity 708
+// entity 707
 {
 "classname" "item_health"
 "origin" "976 -1936 0"
 "wait" "30"
 "spawnflags" "768"
 }
-// entity 709
+// entity 708
 {
 "classname" "func_group"
 "_minlight" "250"
@@ -21334,34 +21317,34 @@ acquired!"
 ( 2016 -1040 -584 ) ( 2016 -1152 -608 ) ( 2016 -1152 -584 ) floor_blue_c [ 0 1 0 0 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 710
+// entity 709
 {
 "classname" "item_health"
 "origin" "1316 -672 -464"
 "wait" "0"
 "spawnflags" "1024"
 }
-// entity 711
+// entity 710
 {
 "classname" "item_armor1"
 "origin" "1332 -464 -464"
 "wait" "0"
 "spawnflags" "1024"
 }
-// entity 712
+// entity 711
 {
 "classname" "item_health"
 "origin" "1332 -304 -464"
 "spawnflags" "1024"
 "wait" "0"
 }
-// entity 713
+// entity 712
 {
 "classname" "item_shells"
 "origin" "3360 -496 -464"
 "spawnflags" "1025"
 }
-// entity 714
+// entity 713
 {
 "classname" "func_group"
 "_minlight" "400"
@@ -21411,7 +21394,7 @@ acquired!"
 ( 1776 -736 -472 ) ( 1776 -752 -472 ) ( 1776 -752 -344 ) floor_blue_c [ 0 1 0 -48 ] [ 0 0 -1 8 ] 0 1 1
 }
 }
-// entity 715
+// entity 714
 {
 "classname" "func_group"
 "_minlight" "300"
@@ -21452,7 +21435,7 @@ acquired!"
 ( 1776 -1024 -512 ) ( 1776 -1136 -536 ) ( 1776 -1136 -512 ) floor_blue_c [ 0 1 0 -16 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 716
+// entity 715
 {
 "classname" "func_group"
 "_minlight" "400"
@@ -21466,12 +21449,29 @@ acquired!"
 ( 1768 -1024 -488 ) ( 1768 -1136 -512 ) ( 1768 -1136 -488 ) floor_blue_c [ 0 1 0 -16 ] [ 0 0 -1 24 ] 0 1 1
 }
 }
-// entity 717
+// entity 716
 {
 "classname" "info_player_start_test"
 "origin" "2008 -568 -440"
 "angle" "180"
 "spawnflags" "0"
+}
+// entity 717
+{
+"classname" "func_door"
+"wait" "-1"
+"angle" "-1"
+"speed" "500"
+"targetname" "pivotdoor"
+// brush 0
+{
+( 1904 128 -352 ) ( 1904 112 -352 ) ( 1904 112 -536 ) skip [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 1904 128 -352 ) ( 1904 128 -536 ) ( 1984 208 -536 ) skip [ 1 0 0 -16 ] [ 0 0 -1 0 ] 270 1 1
+( 1904 128 -352 ) ( 2000 208 -352 ) ( 1984 208 -352 ) skip [ -1 0 0 16 ] [ 0 -1 0 -63.99997 ] 180 1 1
+( 1904 128 -312 ) ( 1984 208 -312 ) ( 2000 208 -312 ) skip [ -1 0 0 16 ] [ 0 -1 0 -63.99997 ] 180 1 1
+( 1984 208 -352 ) ( 1984 208 -536 ) ( 2000 208 -536 ) skip [ 1 0 0 -16 ] [ 0 0 -1 0 ] 180 1 1
+( 1912 128 -336 ) ( 1984 200 -208 ) ( 1984 200 -336 ) skip [ 0.7071067811865476 0.7071067811865476 0 -16 ] [ 0 0 -1 0 ] 180 1 1
+}
 }
 // entity 718
 {
@@ -21998,4 +21998,24 @@ acquired!"
 "spawnflags" "16"
 "targetname" "secretunit02"
 "_tb_layer" "13"
+}
+// entity 746
+{
+"classname" "func_door"
+"angle" "-2"
+"targetname" "trapdoor01"
+"wait" "-1"
+"spawnflags" "32"
+"sounds" "4"
+"speed" "500"
+"_tb_layer" "13"
+// brush 0
+{
+( -1628 -1900 236 ) ( -1632 -1904 236 ) ( -1632 -1904 192 ) o_metal3_22 [ -0.7071067811865475 -0.7071067811865476 0 -126.36658 ] [ 0 0 -1 64 ] 0 0.8125 1
+( -1632 -1904 236 ) ( -1520 -1904 236 ) ( -1520 -1904 192 ) o_metal3_22 [ -1 0 0 -83.69226 ] [ 0 0 -1 64 ] 0 0.8125 1
+( -1632 -1904 192 ) ( -1520 -1904 192 ) ( -1524 -1900 192 ) o_metal3_22 [ -1 0 0 0 ] [ 0 -1 0 -32 ] 0 1 1
+( -1524 -1900 272 ) ( -1520 -1904 272 ) ( -1632 -1904 272 ) o_metal3_22 [ 1 0 0 0 ] [ 0 -1 0 -32 ] 0 1 1
+( -1524 -1900 192 ) ( -1524 -1900 236 ) ( -1628 -1900 236 ) o_metal3_22 [ -1 0 0 -339.69226 ] [ 0 0 -1 64 ] 0 0.8125 1
+( -1520 -1904 192 ) ( -1520 -1904 236 ) ( -1524 -1900 236 ) o_metal3_22 [ -0.7071067811865475 0.7071067811865476 0 71.227264 ] [ 0 0 -1 63 ] 0 0.8125 1
+}
 }
