@@ -11,10 +11,11 @@
 "_tb_soft_map_bounds" "none"
 "message" "Tomb of the Niners"
 "worldtype" "1"
-"_sunlight" "250"
-"fog" "0.025"
+"_sunlight" "350"
+"fog" "0.027 0.356863 0.356863 0.356863"
 "_dirt" "1"
 "_bounce" "1"
+"_sunlight_color" "1 0.968627 0.027451"
 // brush 0
 {
 ( -64 -3648 -16 ) ( -64 -3647 -16 ) ( -64 -3648 -15 ) brk-floor2 [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
@@ -15203,7 +15204,7 @@
 {
 "classname" "item_runeshard"
 "origin" "2528 -480 -416"
-"message" "Ra`s rune
+"message" "Ra`s rune
 acquired!"
 "target" "runedoor"
 }
@@ -21592,6 +21593,20 @@ acquired!"
 }
 // entity 724
 {
+"classname" "light"
+"origin" "-1016 312 -224"
+"wait" "0.1"
+"light" "65"
+}
+// entity 725
+{
+"classname" "light_torch_small_walltorch"
+"origin" "724 -2084 236"
+"style" "5"
+"wait" "1.3"
+}
+// entity 726
+{
 "classname" "func_group"
 "_tb_type" "_tb_layer"
 "_tb_name" "Outofcomp"
@@ -21600,7 +21615,7 @@ acquired!"
 "_tb_layer_hidden" "1"
 "_tb_layer_omit_from_export" "1"
 }
-// entity 725
+// entity 727
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21610,7 +21625,7 @@ acquired!"
 "_tb_transformation" "1 0 0 -976 0 1 0 128 0 0 1 0 0 0 0 1"
 "_tb_layer" "8"
 }
-// entity 726
+// entity 728
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21620,7 +21635,7 @@ acquired!"
 "_tb_transformation" "1 0 0 -976 0 1 0 128 0 0 1 0 0 0 0 1"
 "_tb_group" "7"
 }
-// entity 727
+// entity 729
 {
 "classname" "func_train"
 "target" "pcft0x01"
@@ -21680,7 +21695,7 @@ acquired!"
 ( -2200 -1096 -80 ) ( -2192 -1104 -96 ) ( -2192 -1104 -80 ) floor_blue_c [ -1.0000000000000002 0 0 -48 ] [ 0 0 -1.0000000000000002 40 ] 90 1 1
 }
 }
-// entity 728
+// entity 730
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21690,7 +21705,7 @@ acquired!"
 "_tb_transformation" "1 0 0 -976 0 1 0 128 0 0 1 0 0 0 0 1"
 "_tb_group" "7"
 }
-// entity 729
+// entity 731
 {
 "classname" "path_corner"
 "origin" "-2333 -1256 -248"
@@ -21698,7 +21713,7 @@ acquired!"
 "target" "pcft0x02"
 "_tb_group" "6"
 }
-// entity 730
+// entity 732
 {
 "classname" "path_corner"
 "origin" "-2333 -1256 -376"
@@ -21706,7 +21721,7 @@ acquired!"
 "target" "pcft0x01"
 "_tb_group" "6"
 }
-// entity 731
+// entity 733
 {
 "classname" "func_train"
 "target" "pcft0202"
@@ -21766,7 +21781,7 @@ acquired!"
 ( -1448 -1368 48 ) ( -1440 -1376 32 ) ( -1440 -1376 48 ) floor_blue_c [ -1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 40 ] 90 1 1
 }
 }
-// entity 732
+// entity 734
 {
 "classname" "func_train"
 "target" "pcft0101"
@@ -21826,7 +21841,7 @@ acquired!"
 ( -1448 -1224 -80 ) ( -1440 -1216 -80 ) ( -1440 -1216 -96 ) floor_blue_c [ -1.0000000000000002 0 0 0 ] [ 0 0 -1.0000000000000002 40 ] 0 1 1
 }
 }
-// entity 733
+// entity 735
 {
 "classname" "func_group"
 "_tb_type" "_tb_group"
@@ -21836,7 +21851,7 @@ acquired!"
 "_tb_transformation" "1 0 0 0 0 1 0 0 0 0 1 -152 0 0 0 1"
 "_tb_layer" "8"
 }
-// entity 734
+// entity 736
 {
 "classname" "path_corner"
 "origin" "-1581 -1528 -384"
@@ -21844,7 +21859,7 @@ acquired!"
 "target" "pcft0201"
 "_tb_group" "12"
 }
-// entity 735
+// entity 737
 {
 "classname" "path_corner"
 "origin" "-1581 -1528 -256"
@@ -21852,7 +21867,7 @@ acquired!"
 "target" "pcft0202"
 "_tb_group" "12"
 }
-// entity 736
+// entity 738
 {
 "classname" "path_corner"
 "origin" "-1581 -1224 -248"
@@ -21860,7 +21875,7 @@ acquired!"
 "target" "pcft0102"
 "_tb_layer" "8"
 }
-// entity 737
+// entity 739
 {
 "classname" "path_corner"
 "origin" "-1581 -1224 -376"
@@ -21868,7 +21883,7 @@ acquired!"
 "target" "pcft0101"
 "_tb_layer" "8"
 }
-// entity 738
+// entity 740
 {
 "classname" "func_group"
 "_tb_type" "_tb_layer"
@@ -21913,7 +21928,7 @@ acquired!"
 ( -16 -372 -92 ) ( -16 -380 -96 ) ( -16 -380 -92 ) clip [ 0 1 0 -48 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 739
+// entity 741
 {
 "classname" "trigger_once"
 "target" "armor01"
@@ -21929,7 +21944,7 @@ acquired!"
 ( 224 -4224 144 ) ( 224 -4240 96 ) ( 224 -4240 144 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 740
+// entity 742
 {
 "classname" "trigger_once"
 "target" "door02"
@@ -21945,7 +21960,7 @@ acquired!"
 ( 752 -1968 128 ) ( 752 -1934 128 ) ( 752 -1934 0 ) trigger [ 0 -1.2500000000002809 0 -34 ] [ 0 0 -1.2500000000000002 -8 ] 180 1 1
 }
 }
-// entity 741
+// entity 743
 {
 "classname" "trigger_once"
 "target" "door02"
@@ -21962,7 +21977,7 @@ acquired!"
 ( 752 -1968 128 ) ( 752 -1934 128 ) ( 752 -1934 0 ) trigger [ 0 -1.2500000000002809 0 -34 ] [ 0 0 -1.2500000000000002 -8 ] 180 1 1
 }
 }
-// entity 742
+// entity 744
 {
 "classname" "trigger_once"
 "target" "secretsquad02"
@@ -21977,7 +21992,7 @@ acquired!"
 ( 768 -1520 -80 ) ( 768 -1616 -104 ) ( 768 -1616 -80 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 743
+// entity 745
 {
 "classname" "trigger_once"
 "spawnflags" "4"
@@ -21994,7 +22009,7 @@ acquired!"
 ( 672 -432 -416 ) ( 672 -512 -464 ) ( 672 -512 -416 ) trigger [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
 }
 }
-// entity 744
+// entity 746
 {
 "classname" "trigger_once"
 "target" "secretsquad03"
@@ -22009,7 +22024,7 @@ acquired!"
 ( 224 -384 -256 ) ( 224 -368 -256 ) ( 224 -368 -448 ) trigger [ 6.123233995736767e-17 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 16 ] 0 1 1
 }
 }
-// entity 745
+// entity 747
 {
 "classname" "trigger_multiple"
 "target" "door04"
@@ -22024,7 +22039,7 @@ acquired!"
 ( 288 -384 -256 ) ( 288 -368 -256 ) ( 288 -368 -448 ) trigger [ 6.123233995736767e-17 -1.0000000000000002 0 0 ] [ 0 0 -1.0000000000000002 16 ] 0 1 1
 }
 }
-// entity 746
+// entity 748
 {
 "classname" "trigger_once"
 "message" "The power of thor is above."
@@ -22040,7 +22055,7 @@ acquired!"
 ( 1888 -1904 -480 ) ( 1888 -2016 -504 ) ( 1888 -2016 -480 ) trigger [ 0 1 0 -32 ] [ 0 0 -1 -32 ] 0 1 1
 }
 }
-// entity 747
+// entity 749
 {
 "classname" "trigger_secret"
 "targetname" "t_s01"
@@ -22056,7 +22071,7 @@ acquired!"
 ( 2000 -944 -504 ) ( 2000 -1056 -528 ) ( 2000 -1056 -504 ) trigger [ -1.2246467991473532e-16 1 0 -32 ] [ 0 0 -1 -56 ] 180 1 1
 }
 }
-// entity 748
+// entity 750
 {
 "classname" "trigger_once"
 "target" "secretunit02"
@@ -22072,7 +22087,7 @@ acquired!"
 ( 1776 -1040 -504 ) ( 1776 -1152 -528 ) ( 1776 -1152 -504 ) trigger [ 0 1 0 0 ] [ 0 0 -1 -56 ] 0 1 1
 }
 }
-// entity 749
+// entity 751
 {
 "classname" "trigger_multiple"
 "wait" "4"
@@ -22091,7 +22106,7 @@ acquired!"
 ( 2832 -1920 -456 ) ( 2832 -2032 -480 ) ( 2832 -2032 -456 ) trigger [ 0 1 0 -16 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 750
+// entity 752
 {
 "classname" "func_wall"
 "spawnflags" "4"
@@ -22107,7 +22122,7 @@ acquired!"
 ( 2816 -1920 -456 ) ( 2816 -2032 -480 ) ( 2816 -2032 -456 ) skip [ 0 1 0 -16 ] [ 0 0 -1 -8 ] 0 1 1
 }
 }
-// entity 751
+// entity 753
 {
 "classname" "monster_shalrath"
 "origin" "1712 424 -388"
@@ -22116,7 +22131,7 @@ acquired!"
 "targetname" "secretunit02"
 "_tb_layer" "13"
 }
-// entity 752
+// entity 754
 {
 "classname" "func_door"
 "angle" "-2"
