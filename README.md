@@ -1,5 +1,5 @@
 # "Tomb of the niners" - bonk_chuma
-Map for Quake, special Copper mod version 1.3 with the Hammer weapon included (hammer time baby) 
+Map for Quake, special Copper mod version 1.3 with the Hammer weapon included (hammer time baby) also known as Bonk jam.
 
 ### Author info
 Map name : Tomb of the Niners
@@ -26,6 +26,8 @@ Hope you enjoyed my map! best wishes and Excelsior!
 - rabbit (Playtesting and feedback).
 - PyroGXPilot (For pointing out where the textures i needed were, thank you!)
 - RecycledOJ (Playtesting and feedback).
+
+also a special mention to : Spootnik, Kebby and Fairweather for hosting Bonk jam.
 
 Music track used:
 From Beneath - Karl Casey
