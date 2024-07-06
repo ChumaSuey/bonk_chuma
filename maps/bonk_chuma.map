@@ -15372,7 +15372,7 @@
 {
 "classname" "item_runeshard"
 "origin" "2528 -480 -416"
-"message" "Ra`s rune
+"message" "Ra`s rune
 acquired!"
 "target" "runedoor"
 }
@@ -15494,7 +15494,7 @@ acquired!"
 // entity 242
 {
 "classname" "trigger_multiple"
-"message" "S.I.A: Ra`s rune has been recovered\nsuccessfully! Good job! now you have to\nfinish the mission: Kill the Niners,\nonce you do it escape from their Tomb...\noh something i forgot to tell you: one\nof themutated into a Brute... not sure\nhow but well, good luck Ranger! I`ll\nsend you the coordinates to the nearest\nteleport in Cairo after you get out of\nthere! Slipgate Incursion Agent A.I\nout!."
+"message" "S.I.A: Ra`s rune has been recovered\nsuccessfully! Good job! now you have to\nfinish the mission: Kill the Niners,\nonce you do it escape from their Tomb...\noh something i forgot to tell you: one\nof them mutated into a Brute... not sure\nhow but well, good luck Ranger! I`ll\nsend you the coordinates to the nearest\nteleport in Cairo after you get out of\nthere! Slipgate Incursion Agent A.I\nout!."
 "wait" "4"
 // brush 0
 {
